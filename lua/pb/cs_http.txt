@@ -1,0 +1,1378 @@
+1 {
+  1: "cs_http.proto"
+  2: "com.motu.underground.protocol"
+  3: "common_http.proto"
+  4 {
+    1: "CSServerListRequest"
+    2 {
+      1: "account"
+      3: 1
+      4: 1
+      5: 9
+      10: "account"
+    }
+    2 {
+      1: "token"
+      3: 2
+      4: 1
+      5: 9
+      10: "token"
+    }
+    2 {
+      1: "platform"
+      3: 3
+      4: 1
+      5: 13
+      10: "platform"
+    }
+    2 {
+      1 {
+        12: 0x7954746e756f6363
+        14: 101
+      }
+      3: 4
+      4: 1
+      5: 13
+      10 {
+        12: 0x7954746e756f6363
+        14: 101
+      }
+    }
+  }
+  4 {
+    1: "CSServerListResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "serverList"
+      3: 5
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBServerInfo"
+      10: "serverList"
+    }
+    2 {
+      1: "roleList"
+      3: 6
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBRoleInfo"
+      10: "roleList"
+    }
+    2 {
+      1 {
+        13: 111
+        14 {
+        }
+        12: 0x6c6f5264
+        12: 0x7473694c
+      }
+      3: 7
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBRoleInfo"
+      10 {
+        13: 111
+        14 {
+        }
+        12: 0x6c6f5264
+        12: 0x7473694c
+      }
+    }
+  }
+  4 {
+    1: "CSGuestRegisterRequest"
+    2 {
+      1: "platform"
+      3: 1
+      4: 1
+      5: 13
+      10: "platform"
+    }
+  }
+  4 {
+    1: "CSGuestRegisterResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "account"
+      3: 3
+      4: 1
+      5: 9
+      10: "account"
+    }
+    2 {
+      1: "password"
+      3: 4
+      4: 1
+      5: 9
+      10: "password"
+    }
+    2 {
+      1: "token"
+      3: 5
+      4: 1
+      5: 9
+      10: "token"
+    }
+    2 {
+      1: "wsUrl"
+      3: 6
+      4: 1
+      5: 9
+      10: "wsUrl"
+    }
+    2 {
+      1: "serverInfo"
+      3: 7
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBServerInfo"
+      10: "serverInfo"
+    }
+  }
+  4 {
+    1: "CSGuestBindRequest"
+    2 {
+      1: "guestaccount"
+      3: 1
+      4: 1
+      5: 9
+      10: "guestaccount"
+    }
+    2 {
+      1: "token"
+      3: 2
+      4: 1
+      5: 9
+      10: "token"
+    }
+    2 {
+      1 {
+        12: 0x7974746e756f6363
+        14: 101
+      }
+      3: 3
+      4: 1
+      5: 13
+      10 {
+        12: 0x7974746e756f6363
+        14: 101
+      }
+    }
+    2 {
+      1: "account"
+      3: 4
+      4: 1
+      5: 9
+      10: "account"
+    }
+    2 {
+      1: "extParam"
+      3: 5
+      4: 1
+      5: 9
+      10: "extParam"
+    }
+  }
+  4 {
+    1: "CSGuestBindResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "token"
+      3: 3
+      4: 1
+      5: 9
+      10: "token"
+    }
+    2 {
+      1: "hasRole"
+      3: 4
+      4: 1
+      5: 8
+      10: "hasRole"
+    }
+  }
+  4 {
+    1: "CSCheckLoginRequest"
+    2 {
+      1: "account"
+      3: 1
+      4: 1
+      5: 9
+      10: "account"
+    }
+    2 {
+      1: "token"
+      3: 2
+      4: 1
+      5: 9
+      10: "token"
+    }
+    2 {
+      1: "platform"
+      3: 3
+      4: 1
+      5: 13
+      10: "platform"
+    }
+  }
+  4 {
+    1: "CSCheckLoginResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "wsUrl"
+      3: 3
+      4: 1
+      5: 9
+      10: "wsUrl"
+    }
+    2 {
+      1: "serverInfo"
+      3: 4
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBServerInfo"
+      10: "serverInfo"
+    }
+    2 {
+      1: "roleInfo"
+      3: 5
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRoleInfo"
+      10: "roleInfo"
+    }
+    2 {
+      1: "isGm"
+      3: 6
+      4: 1
+      5: 8
+      10: "isGm"
+    }
+  }
+  4 {
+    1: "CSLoginNewRequest"
+    2 {
+      1 {
+        12: 0x7954746e756f6363
+        14: 101
+      }
+      3: 1
+      4: 1
+      5: 13
+      10 {
+        12: 0x7954746e756f6363
+        14: 101
+      }
+    }
+    2 {
+      1: "account"
+      3: 2
+      4: 1
+      5: 9
+      10: "account"
+    }
+    2 {
+      1: "password"
+      3: 3
+      4: 1
+      5: 9
+      10: "password"
+    }
+    2 {
+      1: "platform"
+      3: 4
+      4: 1
+      5: 13
+      10: "platform"
+    }
+    2 {
+      1: "channel"
+      3: 5
+      4: 1
+      5: 4
+      10: "channel"
+    }
+    2 {
+      1: "packageName"
+      3: 6
+      4: 1
+      5: 9
+      10: "packageName"
+    }
+    2 {
+      1: "guestaccount"
+      3: 7
+      4: 1
+      5: 9
+      10: "guestaccount"
+    }
+    2 {
+      1: "guestpassword"
+      3: 8
+      4: 1
+      5: 9
+      10: "guestpassword"
+    }
+    2 {
+      1: "extParam"
+      3: 9
+      4: 1
+      5: 9
+      10: "extParam"
+    }
+    2 {
+      1: "isMotuToken"
+      3: 10
+      4: 1
+      5: 8
+      10: "isMotuToken"
+    }
+    2 {
+      1: "ip"
+      3: 11
+      4: 1
+      5: 9
+      10: "ip"
+    }
+    2 {
+      1: "version"
+      3: 12
+      4: 1
+      5: 9
+      10: "version"
+    }
+    2 {
+      1: "deviceId"
+      3: 13
+      4: 1
+      5: 9
+      10: "deviceId"
+    }
+    2 {
+      1: "simulator"
+      3: 14
+      4: 1
+      5: 8
+      10: "simulator"
+    }
+  }
+  4 {
+    1: "CSLoginNewResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "token"
+      3: 3
+      4: 1
+      5: 9
+      10: "token"
+    }
+    2 {
+      1: "wsUrl"
+      3: 4
+      4: 1
+      5: 9
+      10: "wsUrl"
+    }
+    2 {
+      1: "serverInfo"
+      3: 5
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBServerInfo"
+      10: "serverInfo"
+    }
+    2 {
+      1: "roleInfo"
+      3: 6
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRoleInfo"
+      10: "roleInfo"
+    }
+    2 {
+      1: "isGm"
+      3: 7
+      4: 1
+      5: 8
+      10: "isGm"
+    }
+    2 {
+      1: "isGuest"
+      3: 8
+      4: 1
+      5: 8
+      10: "isGuest"
+    }
+    2 {
+      1: "extParam"
+      3: 9
+      4: 1
+      5: 9
+      10: "extParam"
+    }
+    2 {
+      1: "sdkAccountId"
+      3: 10
+      4: 1
+      5: 9
+      10: "sdkAccountId"
+    }
+    2 {
+      1: "regionCode"
+      3: 11
+      4: 1
+      5: 9
+      10: "regionCode"
+    }
+    2 {
+      1: "thirdpay"
+      3: 12
+      4: 1
+      5: 13
+      10: "thirdpay"
+    }
+    2 {
+      1: "iapProductList"
+      3: 13
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.CSLoginNewResponse.PBIapproduct"
+      10: "iapProductList"
+    }
+    2 {
+      1: "guestaccount"
+      3: 14
+      4: 1
+      5: 9
+      10: "guestaccount"
+    }
+    2 {
+      1: "newServerShowTime"
+      3: 15
+      4: 1
+      5: 13
+      10: "newServerShowTime"
+    }
+    2 {
+      1: "serverIdDeduct"
+      3: 16
+      4: 1
+      5: 13
+      10: "serverIdDeduct"
+    }
+    3 {
+      1: "PBIapproduct"
+      2 {
+        1: "iapid"
+        3: 1
+        4: 1
+        5: 13
+        10: "iapid"
+      }
+      2 {
+        1: "productid"
+        3: 2
+        4: 1
+        5: 9
+        10: "productid"
+      }
+    }
+  }
+  4 {
+    1: "CSCreateRoleRequest"
+    2 {
+      1: "account"
+      3: 1
+      4: 1
+      5: 9
+      10: "account"
+    }
+    2 {
+      1: "token"
+      3: 2
+      4: 1
+      5: 9
+      10: "token"
+    }
+    2 {
+      1: "platform"
+      3: 3
+      4: 1
+      5: 13
+      10: "platform"
+    }
+    2 {
+      1: "serverId"
+      3: 4
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "channel"
+      3: 5
+      4: 1
+      5: 4
+      10: "channel"
+    }
+    2 {
+      1: "deviceId"
+      3: 6
+      4: 1
+      5: 9
+      10: "deviceId"
+    }
+    2 {
+      1: "language"
+      3: 8
+      4: 1
+      5: 13
+      10: "language"
+    }
+    2 {
+      1: "name"
+      3: 9
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "gender"
+      3: 10
+      4: 1
+      5: 13
+      10: "gender"
+    }
+    2 {
+      1: "icon"
+      3: 11
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1 {
+        12: 0x7954746e756f6363
+        14: 101
+      }
+      3: 12
+      4: 1
+      5: 13
+      10 {
+        12: 0x7954746e756f6363
+        14: 101
+      }
+    }
+    2 {
+      1 {
+        12: 0x6469746e756f6363
+      }
+      3: 13
+      4: 1
+      5: 9
+      10 {
+        12: 0x6469746e756f6363
+      }
+    }
+    2 {
+      1: "ip"
+      3: 14
+      4: 1
+      5: 9
+      10: "ip"
+    }
+    2 {
+      1 {
+        13: 0x6469626f
+      }
+      3: 15
+      4: 1
+      5: 9
+      10 {
+        13: 0x6469626f
+      }
+    }
+    2 {
+      1: "version"
+      3: 16
+      4: 1
+      5: 9
+      10: "version"
+    }
+    2 {
+      1: "simulator"
+      3: 17
+      4: 1
+      5: 8
+      10: "simulator"
+    }
+  }
+  4 {
+    1: "CSCreateRoleResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "roleInfo"
+      3: 3
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRoleInfo"
+      10: "roleInfo"
+    }
+  }
+  4 {
+    1: "CSGetNoticeRequest"
+    2 {
+      1: "serverId"
+      3: 1
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "platform"
+      3: 2
+      4: 1
+      5: 13
+      10: "platform"
+    }
+    2 {
+      1: "noticeList"
+      3: 3
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBNotice"
+      10: "noticeList"
+    }
+  }
+  4 {
+    1: "CSGetNoticeResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "serverId"
+      3: 3
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "idList"
+      3: 4
+      4: 3
+      5: 4
+      10: "idList"
+    }
+    2 {
+      1: "noticeList"
+      3: 5
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBNotice"
+      10: "noticeList"
+    }
+    2 {
+      1: "timezone"
+      3: 6
+      4: 1
+      5: 5
+      10: "timezone"
+    }
+  }
+  4 {
+    1: "CSCrashLogRequest"
+    2 {
+      1: "serverId"
+      3: 1
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "userId"
+      3: 2
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "userName"
+      3: 3
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "content"
+      3: 4
+      4: 1
+      5: 9
+      10: "content"
+    }
+    2 {
+      1: "ver"
+      3: 5
+      4: 1
+      5: 9
+      10: "ver"
+    }
+  }
+  4 {
+    1: "CSCrashLogResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+  }
+  4 {
+    1: "CSCheckBadwordRequest"
+    2 {
+      1: "word"
+      3: 1
+      4: 1
+      5: 9
+      10: "word"
+    }
+  }
+  4 {
+    1: "CSCheckBadwordResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+  }
+  4 {
+    1: "CSFeedbackRequest"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "content"
+      3: 2
+      4: 1
+      5: 9
+      10: "content"
+    }
+    2 {
+      1: "deviceId"
+      3: 3
+      4: 1
+      5: 9
+      10: "deviceId"
+    }
+  }
+  4 {
+    1: "CSFeedbackResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+  }
+  4 {
+    1: "CSFeedbackListRequest"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+  }
+  4 {
+    1: "CSFeedbackListResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "feedbackList"
+      3: 3
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFeedback"
+      10: "feedbackList"
+    }
+  }
+  4 {
+    1: "CSCheckVersionRequest"
+    2 {
+      1: "platform"
+      3: 1
+      4: 1
+      5: 13
+      10: "platform"
+    }
+    2 {
+      1: "channel"
+      3: 2
+      4: 1
+      5: 4
+      10: "channel"
+    }
+    2 {
+      1: "version"
+      3: 3
+      4: 1
+      5: 13
+      10: "version"
+    }
+    2 {
+      1: "packageName"
+      3: 4
+      4: 1
+      5: 9
+      10: "packageName"
+    }
+  }
+  4 {
+    1: "CSCheckVersionResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "url"
+      3: 3
+      4: 1
+      5: 9
+      10: "url"
+    }
+    2 {
+      1: "type"
+      3: 4
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "forcedUpdate"
+      3: 5
+      4: 1
+      5: 8
+      10: "forcedUpdate"
+    }
+  }
+  4 {
+    1: "CSCheckAppstoreReceiptRequest"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "platform"
+      3: 2
+      4: 1
+      5: 13
+      10: "platform"
+    }
+    2 {
+      1: "orderId"
+      3: 3
+      4: 1
+      5: 9
+      10: "orderId"
+    }
+    2 {
+      1: "receipt"
+      3: 4
+      4: 1
+      5: 9
+      10: "receipt"
+    }
+  }
+  4 {
+    1: "CSCheckAppstoreReceiptResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+  }
+  4 {
+    1: "CSInformRequest"
+    2 {
+      1: "uid1"
+      3: 1
+      4: 1
+      5: 4
+      10: "uid1"
+    }
+    2 {
+      1: "uid2"
+      3: 2
+      4: 1
+      5: 4
+      10: "uid2"
+    }
+    2 {
+      1: "opt"
+      3: 3
+      4: 1
+      5: 9
+      10: "opt"
+    }
+    2 {
+      1: "content"
+      3: 4
+      4: 1
+      5: 9
+      10: "content"
+    }
+    2 {
+      1: "chat"
+      3: 5
+      4: 1
+      5: 9
+      10: "chat"
+    }
+    2 {
+      1: "head"
+      3: 6
+      4: 1
+      5: 9
+      10: "head"
+    }
+  }
+  4 {
+    1: "CSInformResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+  }
+  4 {
+    1: "CSCheckGoogleReceiptRequest"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "platform"
+      3: 2
+      4: 1
+      5: 13
+      10: "platform"
+    }
+    2 {
+      1: "orderId"
+      3: 3
+      4: 1
+      5: 9
+      10: "orderId"
+    }
+    2 {
+      1: "purchaseToken"
+      3: 4
+      4: 1
+      5: 9
+      10: "purchaseToken"
+    }
+    2 {
+      1: "packageName"
+      3: 5
+      4: 1
+      5: 9
+      10: "packageName"
+    }
+    2 {
+      1: "productId"
+      3: 6
+      4: 1
+      5: 9
+      10: "productId"
+    }
+  }
+  4 {
+    1: "CSCheckGoogleReceiptResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+  }
+  4 {
+    1: "CSUserTrackLogRequest"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "deviceId"
+      3: 2
+      4: 1
+      5: 9
+      10: "deviceId"
+    }
+    2 {
+      1 {
+        12: 0x746e6576
+      }
+      3: 3
+      4: 1
+      5: 9
+      10 {
+        12: 0x746e6576
+      }
+    }
+    2 {
+      1: "param"
+      3: 4
+      4: 1
+      5: 9
+      10: "param"
+    }
+  }
+  4 {
+    1: "CSUserTrackLogResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+  }
+  4 {
+    1: "CSChangeAccountRequest"
+    2 {
+      1 {
+        12: 0x7974746e756f6363
+        14: 101
+      }
+      3: 1
+      4: 1
+      5: 13
+      10 {
+        12: 0x7974746e756f6363
+        14: 101
+      }
+    }
+    2 {
+      1: "account"
+      3: 2
+      4: 1
+      5: 9
+      10: "account"
+    }
+    2 {
+      1: "extParam"
+      3: 3
+      4: 1
+      5: 9
+      10: "extParam"
+    }
+  }
+  4 {
+    1: "CSChangeAccountResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "token"
+      3: 3
+      4: 1
+      5: 9
+      10: "token"
+    }
+  }
+  4 {
+    1: "CSAccountBindSdkRequest"
+    2 {
+      1 {
+        12: 0x6469746e756f6363
+      }
+      3: 1
+      4: 1
+      5: 9
+      10 {
+        12: 0x6469746e756f6363
+      }
+    }
+    2 {
+      1: "bindAccountid"
+      3: 2
+      4: 1
+      5: 9
+      10: "bindAccountid"
+    }
+    2 {
+      1: "token"
+      3: 3
+      4: 1
+      5: 9
+      10: "token"
+    }
+    2 {
+      1: "platform"
+      3: 4
+      4: 1
+      5: 13
+      10: "platform"
+    }
+  }
+  4 {
+    1: "CSAccountBindSdkResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "token"
+      3: 3
+      4: 1
+      5: 9
+      10: "token"
+    }
+  }
+  4 {
+    1: "CSGetMaintainNoticeRequest"
+    2 {
+      1: "serverId"
+      3: 1
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "platform"
+      3: 2
+      4: 1
+      5: 13
+      10: "platform"
+    }
+  }
+  4 {
+    1: "CSGetMaintainNoticeResponse"
+    2 {
+      1: "ret"
+      3: 1
+      4: 1
+      5: 13
+      10: "ret"
+    }
+    2 {
+      1: "errMsg"
+      3: 2
+      4: 1
+      5: 9
+      10: "errMsg"
+    }
+    2 {
+      1: "notice"
+      3: 3
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBNotice"
+      10: "notice"
+    }
+  }
+  12: "proto3"
+}

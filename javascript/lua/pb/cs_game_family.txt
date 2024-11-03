@@ -1,0 +1,48 @@
+1 {
+  1: "cs_game_family.proto"
+  2: "com.motu.underground.protocol"
+  3: "common.proto"
+    4 {
+    1: "CSGameFamilyInfoResponse"
+    2 {
+      1: "familyInfo"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyInfo"
+      10: "familyInfo"
+    }
+    2 {
+      1: "familyMemberList"
+      3: 2
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyMember"
+      10: "familyMemberList"
+    }
+    2 {
+      1: "userInfo"
+      3: 3
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserInfoShow"
+      10: "userInfo"
+    }
+    2 {
+      1: "familyGuardBossBoxs"
+      3: 4
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyGuardBossBox"
+      10: "familyGuardBossBoxs"
+    }
+    2 {
+      1: "guradBossBoxNum"
+      3: 5
+      4: 1
+      5: 13
+      10: "guradBossBoxNum"
+    }
+  }
+  12: "proto3"
+}

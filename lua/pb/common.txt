@@ -1,0 +1,10922 @@
+1 {
+  1: "common.proto"
+  2: "com.motu.underground.protocol"
+  4 {
+    1: "PBUserInfoShow"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "userName"
+      3: 2
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "icon"
+      3: 4
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "frameId"
+      3: 5
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "serverId"
+      3: 6
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "familyInfoShow"
+      3: 7
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyInfoShow"
+      10: "familyInfoShow"
+    }
+    2 {
+      1: "power"
+      3: 8
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "honorId"
+      3: 9
+      4: 1
+      5: 13
+      10: "honorId"
+    }
+    2 {
+      1: "score"
+      3: 10
+      4: 1
+      5: 13
+      10: "score"
+    }
+    2 {
+      1: "dan"
+      3: 11
+      4: 1
+      5: 13
+      10: "dan"
+    }
+    2 {
+      1: "isRobot"
+      3: 12
+      4: 1
+      5: 8
+      10: "isRobot"
+    }
+    2 {
+      1: "seat"
+      3: 13
+      4: 1
+      5: 13
+      10: "seat"
+    }
+    2 {
+      1: "type"
+      3: 14
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "rank"
+      3: 15
+      4: 1
+      5: 13
+      10: "rank"
+    }
+    2 {
+      1: "vip"
+      3: 16
+      4: 1
+      5: 13
+      10: "vip"
+    }
+    2 {
+      1: "soulWeaponLevel"
+      3: 17
+      4: 1
+      5: 13
+      10: "soulWeaponLevel"
+    }
+  }
+  4 {
+    1: "PBUserInfo"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "userName"
+      3: 2
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "vip"
+      3: 3
+      4: 1
+      5: 13
+      10: "vip"
+    }
+    2 {
+      1: "vipScore"
+      3: 4
+      4: 1
+      5: 13
+      10: "vipScore"
+    }
+    2 {
+      1: "icon"
+      3: 5
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "gender"
+      3: 6
+      4: 1
+      5: 13
+      10: "gender"
+    }
+    2 {
+      1: "level"
+      3: 7
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "exp"
+      3: 8
+      4: 1
+      5: 4
+      10: "exp"
+    }
+    2 {
+      1: "location"
+      3: 9
+      4: 1
+      5: 13
+      10: "location"
+    }
+    2 {
+      1 {
+        13: 0x7069566564694873
+      }
+      3: 10
+      4: 1
+      5: 13
+      10 {
+        13: 0x7069566564694873
+      }
+    }
+    2 {
+      1: "frameId"
+      3: 11
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "honorId"
+      3: 12
+      4: 1
+      5: 13
+      10: "honorId"
+    }
+    2 {
+      1: "vipGiftScore"
+      3: 13
+      4: 1
+      5: 13
+      10: "vipGiftScore"
+    }
+    2 {
+      1: "systemPushSwitch"
+      3: 14
+      4: 3
+      5: 13
+      10: "systemPushSwitch"
+    }
+    2 {
+      1: "payType"
+      3: 15
+      4: 1
+      5: 13
+      10: "payType"
+    }
+    2 {
+      1: "limitCond"
+      3: 16
+      4: 3
+      5: 13
+      10: "limitCond"
+    }
+    2 {
+      1: "payDiamond"
+      3: 17
+      4: 1
+      5: 13
+      10: "payDiamond"
+    }
+  }
+  4 {
+    1: "PBUserExtInfo"
+    2 {
+      1: "chargeTime"
+      3: 1
+      4: 1
+      5: 13
+      10: "chargeTime"
+    }
+    2 {
+      1: "diamondCharge"
+      3: 2
+      4: 1
+      5: 13
+      10: "diamondCharge"
+    }
+    2 {
+      1: "registerTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "registerTime"
+    }
+    2 {
+      1: "renameTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "renameTime"
+    }
+    2 {
+      1: "isRenameFree"
+      3: 5
+      4: 1
+      5: 13
+      10: "isRenameFree"
+    }
+    2 {
+      1: "teachId"
+      3: 6
+      4: 1
+      5: 13
+      10: "teachId"
+    }
+    2 {
+      1: "moduleEnter"
+      3: 7
+      4: 3
+      5: 13
+      10: "moduleEnter"
+    }
+    2 {
+      1: "levelModule"
+      3: 8
+      4: 1
+      5: 13
+      10: "levelModule"
+    }
+    2 {
+      1: "moduleUnlock"
+      3: 9
+      4: 1
+      5: 13
+      10: "moduleUnlock"
+    }
+    2 {
+      1: "isGm"
+      3: 10
+      4: 1
+      5: 13
+      10: "isGm"
+    }
+    2 {
+      1: "bindUserId"
+      3: 11
+      4: 1
+      5: 4
+      10: "bindUserId"
+    }
+    2 {
+      1: "commonModuleId"
+      3: 12
+      4: 3
+      5: 13
+      10: "commonModuleId"
+    }
+    2 {
+      1: "regressionBind"
+      3: 13
+      4: 1
+      5: 4
+      10: "regressionBind"
+    }
+    2 {
+      1: "iapBuy"
+      3: 14
+      4: 1
+      5: 13
+      10: "iapBuy"
+    }
+  }
+  4 {
+    1: "PBActInfo"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "type"
+      3: 2
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "name"
+      3: 3
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "icon"
+      3: 4
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "sort"
+      3: 5
+      4: 1
+      5: 13
+      10: "sort"
+    }
+    2 {
+      1: "startTime"
+      3: 6
+      4: 1
+      5: 13
+      10: "startTime"
+    }
+    2 {
+      1: "endTime"
+      3: 7
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "des"
+      3: 8
+      4: 1
+      5: 9
+      10: "des"
+    }
+    2 {
+      1: "closeTime"
+      3: 9
+      4: 1
+      5: 13
+      10: "closeTime"
+    }
+    2 {
+      1: "param"
+      3: 10
+      4: 1
+      5: 9
+      10: "param"
+    }
+    2 {
+      1: "showTime"
+      3: 11
+      4: 1
+      5: 13
+      10: "showTime"
+    }
+    2 {
+      1: "isShow"
+      3: 12
+      4: 1
+      5: 13
+      10: "isShow"
+    }
+    2 {
+      1: "adParam"
+      3: 13
+      4: 1
+      5: 9
+      10: "adParam"
+    }
+    2 {
+      1: "themeId"
+      3: 14
+      4: 1
+      5: 13
+      10: "themeId"
+    }
+    2 {
+      1: "extraParam"
+      3: 15
+      4: 1
+      5: 9
+      10: "extraParam"
+    }
+  }
+  4 {
+    1: "PBInitCommonAct"
+    2 {
+      1: "eightLogin"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBActEightLogin"
+      10: "eightLogin"
+    }
+    2 {
+      1: "online"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBActOnline"
+      10: "online"
+    }
+    2 {
+      1: "levelGift"
+      3: 3
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBActLevelGift"
+      10: "levelGift"
+    }
+    2 {
+      1: "firstAccumulate"
+      3: 4
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBActFirstAccumulate"
+      10: "firstAccumulate"
+    }
+    2 {
+      1: "weekend"
+      3: 5
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserWeekendAct"
+      10: "weekend"
+    }
+    2 {
+      1: "hungUp"
+      3: 6
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserHungUpAct"
+      10: "hungUp"
+    }
+    2 {
+      1: "hundredDraw"
+      3: 7
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBActHundredDraw"
+      10: "hundredDraw"
+    }
+  }
+  4 {
+    1: "PBActEightLogin"
+    2 {
+      1: "eightDay"
+      3: 1
+      4: 1
+      5: 13
+      10: "eightDay"
+    }
+    2 {
+      1: "eightGet"
+      3: 2
+      4: 1
+      5: 13
+      10: "eightGet"
+    }
+    2 {
+      1: "group"
+      3: 3
+      4: 1
+      5: 13
+      10: "group"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      8: 0x656e696c6e4f7463
+    }
+    2 {
+      1: "rewardList"
+      3: 1
+      4: 3
+      5: 13
+      10: "rewardList"
+    }
+    2 {
+      1: "group"
+      3: 2
+      4: 1
+      5: 13
+      10: "group"
+    }
+    2 {
+      1: "firstActTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "firstActTime"
+    }
+    2 {
+      1 {
+        12: 0x656e696c6e4f7463
+      }
+      3: 4
+      4: 1
+      5: 13
+      10 {
+        12: 0x656e696c6e4f7463
+      }
+    }
+  }
+  4 {
+    1: "PBActLevelGift"
+    2 {
+      1: "rewardList"
+      3: 1
+      4: 3
+      5: 13
+      10: "rewardList"
+    }
+    2 {
+      1: "group"
+      3: 2
+      4: 1
+      5: 13
+      10: "group"
+    }
+  }
+  4 {
+    1: "PBActFirstAccumulate"
+    2 {
+      1: "firstChargeState"
+      3: 1
+      4: 1
+      5: 13
+      10: "firstChargeState"
+    }
+    2 {
+      1: "accumulateChargeDay"
+      3: 2
+      4: 1
+      5: 13
+      10: "accumulateChargeDay"
+    }
+    2 {
+      1: "accumulateChargeNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "accumulateChargeNum"
+    }
+    2 {
+      1: "accumulateChargeGroup"
+      3: 4
+      4: 1
+      5: 13
+      10: "accumulateChargeGroup"
+    }
+    2 {
+      1: "accumulateChargeReward"
+      3: 5
+      4: 1
+      5: 13
+      10: "accumulateChargeReward"
+    }
+    2 {
+      1: "accumulateChargeState2"
+      3: 6
+      4: 1
+      5: 13
+      10: "accumulateChargeState2"
+    }
+  }
+  4 {
+    1: "PBActHundredDraw"
+    2 {
+      1: "hundredDrawGet"
+      3: 1
+      4: 3
+      5: 13
+      10: "hundredDrawGet"
+    }
+    2 {
+      1: "hundredDrawDay"
+      3: 2
+      4: 1
+      5: 13
+      10: "hundredDrawDay"
+    }
+    2 {
+      1: "hundredDrawDayGet"
+      3: 3
+      4: 1
+      5: 13
+      10: "hundredDrawDayGet"
+    }
+  }
+  4 {
+    1: "PBActPush"
+    2 {
+      1: "eightLogin"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBActEightLogin"
+      10: "eightLogin"
+    }
+    2 {
+      1: "online"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBActOnline"
+      10: "online"
+    }
+    2 {
+      1: "levelGift"
+      3: 3
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBActLevelGift"
+      10: "levelGift"
+    }
+    2 {
+      1: "fightAct"
+      3: 4
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFightAct"
+      10: "fightAct"
+    }
+    2 {
+      1: "hungUp"
+      3: 5
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserHungUpAct"
+      10: "hungUp"
+    }
+    2 {
+      1: "newSignActId"
+      3: 6
+      4: 3
+      5: 4
+      10: "newSignActId"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      10: 0x54726573
+      13: 101
+      13: 0x74634165
+    }
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "themeId"
+      3: 2
+      4: 1
+      5: 13
+      10: "themeId"
+    }
+    2 {
+      1: "startTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "startTime"
+    }
+    2 {
+      1: "endTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "actGroup"
+      3: 5
+      4: 1
+      5: 13
+      10: "actGroup"
+    }
+  }
+  4 {
+    1: "PBUserAffair"
+    2 {
+      1: "buddyGiftNum"
+      3: 1
+      4: 1
+      5: 13
+      10: "buddyGiftNum"
+    }
+    2 {
+      1: "buddyGetGiftNum"
+      3: 2
+      4: 1
+      5: 13
+      10: "buddyGetGiftNum"
+    }
+    2 {
+      1: "cardBagExpansion"
+      3: 3
+      4: 1
+      5: 13
+      10: "cardBagExpansion"
+    }
+    2 {
+      1 {
+        12: 0x656d6954616e6572
+      }
+      3: 4
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBArenaTime"
+      10 {
+        12: 0x656d6954616e6572
+      }
+    }
+    2 {
+      1 {
+        12: 0x6c706d6554736572
+        12: 0x656d6954
+      }
+      3: 5
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBArenaTime"
+      10 {
+        12: 0x6c706d6554736572
+        12: 0x656d6954
+      }
+    }
+    2 {
+      1: "aresTempleGroupTime"
+      3: 6
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBArenaTime"
+      10: "aresTempleGroupTime"
+    }
+    2 {
+      1: "bindItemPhone"
+      3: 7
+      4: 1
+      5: 9
+      10: "bindItemPhone"
+    }
+    2 {
+      1: "sixStarCardFreeReturnNum"
+      3: 8
+      4: 1
+      5: 13
+      10: "sixStarCardFreeReturnNum"
+    }
+    2 {
+      1: "bindItemEmail"
+      3: 9
+      4: 1
+      5: 9
+      10: "bindItemEmail"
+    }
+    2 {
+      1: "bindItemTwitter"
+      3: 10
+      4: 1
+      5: 9
+      10: "bindItemTwitter"
+    }
+    2 {
+      1: "bindItemSelectType"
+      3: 11
+      4: 1
+      5: 13
+      10: "bindItemSelectType"
+    }
+    2 {
+      1: "bindItemEmail202"
+      3: 12
+      4: 1
+      5: 9
+      10: "bindItemEmail202"
+    }
+    2 {
+      1: "bindItemTwitter202"
+      3: 13
+      4: 1
+      5: 9
+      10: "bindItemTwitter202"
+    }
+    2 {
+      1: "bindItemName"
+      3: 14
+      4: 1
+      5: 9
+      10: "bindItemName"
+    }
+    2 {
+      1: "bindItemAddress"
+      3: 15
+      4: 1
+      5: 9
+      10: "bindItemAddress"
+    }
+    2 {
+      1: "bindItemQq"
+      3: 16
+      4: 1
+      5: 9
+      10: "bindItemQq"
+    }
+  }
+  4 {
+    1: "PBUserItem"
+    2 {
+      1: "itemId"
+      3: 1
+      4: 1
+      5: 13
+      10: "itemId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 4
+      10: "num"
+    }
+    2 {
+      1: "endTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+  }
+  4 {
+    1: "PBRewardPrompt"
+    2 {
+      1: "itemId"
+      3: 1
+      4: 1
+      5: 13
+      10: "itemId"
+    }
+    2 {
+      1: "id"
+      3: 2
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "num"
+      3: 3
+      4: 1
+      5: 4
+      10: "num"
+    }
+    2 {
+      1: "star"
+      3: 4
+      4: 1
+      5: 13
+      10: "star"
+    }
+  }
+  4 {
+    1: "PBRewardDelete"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "itemId"
+      3: 2
+      4: 1
+      5: 13
+      10: "itemId"
+    }
+  }
+  4 {
+    1: "PBRewardInfo"
+    2 {
+      1 {
+        14: 0x6a626f76
+      }
+      3: 1
+      4: 1
+      5: 9
+      10 {
+        14: 0x6a626f76
+      }
+    }
+    2 {
+      1: "promptList"
+      3: 2
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardPrompt"
+      10: "promptList"
+    }
+    2 {
+      1: "itemList"
+      3: 3
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserItem"
+      10: "itemList"
+    }
+    2 {
+      1: "cardList"
+      3: 4
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserCard"
+      10: "cardList"
+    }
+    2 {
+      1 {
+        14 {
+          13: 0x73694c786f426e67
+        }
+      }
+      3: 5
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserSignBox"
+      10 {
+        14 {
+          13: 0x73694c786f426e67
+        }
+      }
+    }
+    2 {
+      1: "deleteList"
+      3: 6
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardDelete"
+      10: "deleteList"
+    }
+    2 {
+      1: "cardShardList"
+      3: 7
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserCardShard"
+      10: "cardShardList"
+    }
+    2 {
+      1: "valueList"
+      3: 8
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBValue"
+      10: "valueList"
+    }
+    2 {
+      1: "teamPowerList"
+      3: 9
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBValue"
+      10: "teamPowerList"
+    }
+    2 {
+      1: "frameList"
+      3: 10
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFrame"
+      10: "frameList"
+    }
+    2 {
+      1: "honorList"
+      3: 11
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserHonor"
+      10: "honorList"
+    }
+    2 {
+      1 {
+        13: 0x6c75646f
+        12: 0x656d6954
+      }
+      3: 12
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserModuleTime"
+      10 {
+        13: 0x6c75646f
+        12: 0x656d6954
+      }
+    }
+    2 {
+      1: "equipList"
+      3: 13
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserEquip"
+      10: "equipList"
+    }
+    2 {
+      1: "badgeList"
+      3: 14
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserBadge"
+      10: "badgeList"
+    }
+    2 {
+      1: "handbookList"
+      3: 15
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserHandbook"
+      10: "handbookList"
+    }
+    2 {
+      1: "magicCodeList"
+      3: 16
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserMagicCode"
+      10: "magicCodeList"
+    }
+    2 {
+      1: "magicCodeShardList"
+      3: 17
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserMagicCodeShard"
+      10: "magicCodeShardList"
+    }
+    2 {
+      1: "suitList"
+      3: 18
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserSuit"
+      10: "suitList"
+    }
+    2 {
+      1: "spiritsList"
+      3: 19
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserSpirits"
+      10: "spiritsList"
+    }
+    2 {
+      1: "spiritsShardList"
+      3: 20
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserSpiritsShard"
+      10: "spiritsShardList"
+    }
+    2 {
+      1: "talentList"
+      3: 21
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserTalent"
+      10: "talentList"
+    }
+    2 {
+      1: "legendEquipList"
+      3: 22
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserLegendEquip"
+      10: "legendEquipList"
+    }
+    2 {
+      1: "equipShardList"
+      3: 23
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserEquipShard"
+      10: "equipShardList"
+    }
+    2 {
+      1: "scrollList"
+      3: 24
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserScroll"
+      10: "scrollList"
+    }
+    2 {
+      1: "scrollShardList"
+      3: 25
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserScrollShard"
+      10: "scrollShardList"
+    }
+    2 {
+      1: "symbolList"
+      3: 26
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserSymbol"
+      10: "symbolList"
+    }
+    2 {
+      1: "holyWeaponList"
+      3: 27
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserHolyWeapon"
+      10: "holyWeaponList"
+    }
+    2 {
+      1: "holyWeaponShardList"
+      3: 28
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserHolyWeaponShard"
+      10: "holyWeaponShardList"
+    }
+    2 {
+      1: "proverbsList"
+      3: 29
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserProverbs"
+      10: "proverbsList"
+    }
+    2 {
+      1: "proverbsShardList"
+      3: 30
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserProverbsShard"
+      10: "proverbsShardList"
+    }
+    2 {
+      1: "fishBaitList"
+      3: 31
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFishBait"
+      10: "fishBaitList"
+    }
+    2 {
+      1: "bindItemList"
+      3: 32
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserBindItem"
+      10: "bindItemList"
+    }
+    2 {
+      1: "fishItemList"
+      3: 33
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFishItem"
+      10: "fishItemList"
+    }
+    2 {
+      1: "guardList"
+      3: 34
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserGuard"
+      10: "guardList"
+    }
+    2 {
+      1: "guardShardList"
+      3: 35
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserGuardShard"
+      10: "guardShardList"
+    }
+    2 {
+      1: "seasonDungeonReward"
+      3: 36
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBSeasonDungeonReward"
+      10: "seasonDungeonReward"
+    }
+    2 {
+      1: "extraUp"
+      3: 37
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserExtraUp"
+      10: "extraUp"
+    }
+  }
+  4 {
+    1: "PBUserMagicCode"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "magicId"
+      3: 2
+      4: 1
+      5: 13
+      10: "magicId"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "star"
+      3: 4
+      4: 1
+      5: 13
+      10: "star"
+    }
+    2 {
+      1: "attachMagicId"
+      3: 5
+      4: 1
+      5: 13
+      10: "attachMagicId"
+    }
+    2 {
+      1: "isFestivalDispatch"
+      3: 6
+      4: 1
+      5: 13
+      10: "isFestivalDispatch"
+    }
+  }
+  4 {
+    1: "PBUserMagicCodeShard"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "magicShardId"
+      3: 2
+      4: 1
+      5: 13
+      10: "magicShardId"
+    }
+    2 {
+      1: "num"
+      3: 3
+      4: 1
+      5: 13
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBItemInfo"
+    2 {
+      1: "itemId"
+      3: 1
+      4: 1
+      5: 13
+      10: "itemId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 4
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserMail"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "mailType"
+      3: 2
+      4: 1
+      5: 13
+      10: "mailType"
+    }
+    2 {
+      1: "title"
+      3: 3
+      4: 1
+      5: 9
+      10: "title"
+    }
+    2 {
+      1: "content"
+      3: 4
+      4: 1
+      5: 9
+      10: "content"
+    }
+    2 {
+      1: "addTime"
+      3: 5
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+    2 {
+      1: "isRead"
+      3: 6
+      4: 1
+      5: 13
+      10: "isRead"
+    }
+    2 {
+      1: "isGet"
+      3: 7
+      4: 1
+      5: 13
+      10: "isGet"
+    }
+    2 {
+      1: "itemList"
+      3: 8
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBItemInfo"
+      10: "itemList"
+    }
+  }
+  4 {
+    1: "PBUserholidayIap"
+    2 {
+      1: "val"
+      3: 1
+      4: 1
+      5: 13
+      10: "val"
+    }
+    2 {
+      1: "time"
+      3: 2
+      4: 1
+      5: 13
+      10: "time"
+    }
+    2 {
+      1: "list"
+      3: 3
+      4: 3
+      5: 13
+      10: "list"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      9: 0x746c757365527061
+    }
+    2 {
+      1: "iapId"
+      3: 1
+      4: 1
+      5: 13
+      10: "iapId"
+    }
+    2 {
+      1: "orderId"
+      3: 2
+      4: 1
+      5: 9
+      10: "orderId"
+    }
+    2 {
+      1: "diamondCharge"
+      3: 3
+      4: 1
+      5: 13
+      10: "diamondCharge"
+    }
+    2 {
+      1: "first"
+      3: 4
+      4: 1
+      5: 8
+      10: "first"
+    }
+    2 {
+      1: "diamond"
+      3: 5
+      4: 1
+      5: 13
+      10: "diamond"
+    }
+    2 {
+      1: "reward"
+      3: 6
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+    2 {
+      1: "userExtInfo"
+      3: 7
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserExtInfo"
+      10: "userExtInfo"
+    }
+    2 {
+      1 {
+        13: 0x6449746669477061
+      }
+      3: 8
+      4: 1
+      5: 13
+      10 {
+        13: 0x6449746669477061
+      }
+    }
+    2 {
+      1: "userIapGift"
+      3: 9
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserIapGift"
+      10: "userIapGift"
+    }
+    2 {
+      1: "iapGiftPush"
+      3: 10
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserIapGiftPush"
+      10: "iapGiftPush"
+    }
+    2 {
+      1: "payDiamond"
+      3: 11
+      4: 1
+      5: 13
+      10: "payDiamond"
+    }
+  }
+  4 {
+    1: "PBFunctionClient"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 13
+      10: "id"
+    }
+    2 {
+      1: "open"
+      3: 2
+      4: 1
+      5: 8
+      10: "open"
+    }
+  }
+  4 {
+    1: "PBTableConfig"
+    2 {
+      1: "tableName"
+      3: 1
+      4: 1
+      5: 9
+      10: "tableName"
+    }
+    2 {
+      1: "dataList"
+      3: 2
+      4: 3
+      5: 9
+      10: "dataList"
+    }
+  }
+  4 {
+    1: "PBMap"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 13
+      10: "id"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBValue"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 13
+      10: "id"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 4
+      10: "num"
+    }
+    2 {
+      1: "dbId"
+      3: 3
+      4: 1
+      5: 4
+      10: "dbId"
+    }
+  }
+  4 {
+    1: "PBRankInfo"
+    2 {
+      1: "userInfoShow"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserInfoShow"
+      10: "userInfoShow"
+    }
+    2 {
+      1: "score"
+      3: 2
+      4: 1
+      5: 4
+      10: "score"
+    }
+    2 {
+      1: "power"
+      3: 3
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "time"
+      3: 4
+      4: 1
+      5: 13
+      10: "time"
+    }
+    2 {
+      1: "familyInfoShow"
+      3: 5
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyInfoShow"
+      10: "familyInfoShow"
+    }
+    2 {
+      1: "cardId"
+      3: 6
+      4: 1
+      5: 13
+      10: "cardId"
+    }
+    2 {
+      1: "rankType"
+      3: 7
+      4: 1
+      5: 13
+      10: "rankType"
+    }
+    2 {
+      1: "beLikedNum"
+      3: 8
+      4: 1
+      5: 13
+      10: "beLikedNum"
+    }
+    2 {
+      1: "serverId"
+      3: 9
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "campType"
+      3: 10
+      4: 1
+      5: 13
+      10: "campType"
+    }
+    2 {
+      1: "betType"
+      3: 11
+      4: 1
+      5: 13
+      10: "betType"
+    }
+    2 {
+      1: "betPoint"
+      3: 12
+      4: 3
+      5: 13
+      10: "betPoint"
+    }
+    2 {
+      1: "suitId"
+      3: 13
+      4: 1
+      5: 13
+      10: "suitId"
+    }
+  }
+  4 {
+    1: "PBServerinfoConfig"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "name"
+      3: 2
+      4: 1
+      5: 9
+      10: "name"
+    }
+  }
+  4 {
+    1: "PBUserBuddy"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "userName"
+      3: 2
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "icon"
+      3: 4
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "frameId"
+      3: 5
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "loginTime"
+      3: 6
+      4: 1
+      5: 13
+      10: "loginTime"
+    }
+    2 {
+      1: "isSendGift"
+      3: 7
+      4: 1
+      5: 8
+      10: "isSendGift"
+    }
+    2 {
+      1: "giftStatus"
+      3: 8
+      4: 1
+      5: 13
+      10: "giftStatus"
+    }
+    2 {
+      1: "power"
+      3: 9
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "serverId"
+      3: 10
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "offLineTime"
+      3: 11
+      4: 1
+      5: 13
+      10: "offLineTime"
+    }
+    2 {
+      1 {
+        13: 0x6d65547365724173
+        14: 108
+        12: 0x6e676953
+      }
+      3: 50
+      4: 1
+      5: 8
+      10 {
+        13: 0x6d65547365724173
+        14: 108
+        12: 0x6e676953
+      }
+    }
+  }
+  4 {
+    1: "PBChatPublic"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "chatType"
+      3: 2
+      4: 1
+      5: 13
+      10: "chatType"
+    }
+    2 {
+      1: "subType"
+      3: 3
+      4: 1
+      5: 13
+      10: "subType"
+    }
+    2 {
+      1: "userId"
+      3: 4
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "serverId"
+      3: 5
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "userName"
+      3: 6
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "icon"
+      3: 7
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "frameId"
+      3: 8
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "content"
+      3: 9
+      4: 1
+      5: 9
+      10: "content"
+    }
+    2 {
+      1: "addTime"
+      3: 10
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+    2 {
+      1: "language"
+      3: 11
+      4: 1
+      5: 13
+      10: "language"
+    }
+    2 {
+      1: "param"
+      3: 12
+      4: 1
+      5: 9
+      10: "param"
+    }
+    2 {
+      1: "honorId"
+      3: 13
+      4: 1
+      5: 13
+      10: "honorId"
+    }
+    2 {
+      1: "awakenedHonorId"
+      3: 14
+      4: 1
+      5: 13
+      10: "awakenedHonorId"
+    }
+  }
+  4 {
+    1: "PBChatFamily"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "familyId"
+      3: 2
+      4: 1
+      5: 4
+      10: "familyId"
+    }
+    2 {
+      1: "subType"
+      3: 3
+      4: 1
+      5: 13
+      10: "subType"
+    }
+    2 {
+      1: "userId"
+      3: 4
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "userName"
+      3: 5
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "icon"
+      3: 6
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "frameId"
+      3: 7
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "content"
+      3: 8
+      4: 1
+      5: 9
+      10: "content"
+    }
+    2 {
+      1: "addTime"
+      3: 9
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+    2 {
+      1: "language"
+      3: 10
+      4: 1
+      5: 13
+      10: "language"
+    }
+    2 {
+      1: "param"
+      3: 11
+      4: 1
+      5: 9
+      10: "param"
+    }
+    2 {
+      1: "honorId"
+      3: 12
+      4: 1
+      5: 13
+      10: "honorId"
+    }
+    2 {
+      1: "awakenedHonorId"
+      3: 13
+      4: 1
+      5: 13
+      10: "awakenedHonorId"
+    }
+  }
+  4 {
+    1: "PBUserAchieve"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 4
+      10: "num"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+  }
+  4 {
+    1: "PBUserDayTask"
+    2 {
+      1: "dayTaskId"
+      3: 1
+      4: 1
+      5: 13
+      10: "dayTaskId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+    2 {
+      1: "drawTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "drawTime"
+    }
+  }
+  4 {
+    1: "PBUserCard"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "userId"
+      3: 2
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "cardId"
+      3: 3
+      4: 1
+      5: 13
+      10: "cardId"
+    }
+    2 {
+      1: "level"
+      3: 4
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "star"
+      3: 5
+      4: 1
+      5: 13
+      10: "star"
+    }
+    2 {
+      1: "isLocked"
+      3: 6
+      4: 1
+      5: 13
+      10: "isLocked"
+    }
+    2 {
+      1: "isDispatch"
+      3: 7
+      4: 1
+      5: 13
+      10: "isDispatch"
+    }
+    2 {
+      1: "equipPos1"
+      3: 8
+      4: 1
+      5: 4
+      10: "equipPos1"
+    }
+    2 {
+      1: "equipPos2"
+      3: 9
+      4: 1
+      5: 4
+      10: "equipPos2"
+    }
+    2 {
+      1: "equipPos3"
+      3: 10
+      4: 1
+      5: 4
+      10: "equipPos3"
+    }
+    2 {
+      1: "equipPos4"
+      3: 11
+      4: 1
+      5: 4
+      10: "equipPos4"
+    }
+    2 {
+      1: "badgePos1"
+      3: 12
+      4: 1
+      5: 4
+      10: "badgePos1"
+    }
+    2 {
+      1: "badgePos2"
+      3: 13
+      4: 1
+      5: 4
+      10: "badgePos2"
+    }
+    2 {
+      1: "magicId"
+      3: 14
+      4: 1
+      5: 13
+      10: "magicId"
+    }
+    2 {
+      1: "suitId"
+      3: 15
+      4: 1
+      5: 13
+      10: "suitId"
+    }
+    2 {
+      1: "talentPos1"
+      3: 16
+      4: 1
+      5: 13
+      10: "talentPos1"
+    }
+    2 {
+      1: "talentPos2"
+      3: 17
+      4: 1
+      5: 13
+      10: "talentPos2"
+    }
+    2 {
+      1: "scrollId"
+      3: 18
+      4: 1
+      5: 13
+      10: "scrollId"
+    }
+    2 {
+      1: "awakeLevel"
+      3: 19
+      4: 1
+      5: 13
+      10: "awakeLevel"
+    }
+    2 {
+      1: "linkCardDbid"
+      3: 20
+      4: 1
+      5: 4
+      10: "linkCardDbid"
+    }
+    2 {
+      1: "attrSuitId"
+      3: 21
+      4: 1
+      5: 13
+      10: "attrSuitId"
+    }
+    2 {
+      1: "selectCardId"
+      3: 22
+      4: 1
+      5: 13
+      10: "selectCardId"
+    }
+    2 {
+      1: "selectSuitId"
+      3: 23
+      4: 1
+      5: 13
+      10: "selectSuitId"
+    }
+    2 {
+      1: "soulCardDbid"
+      3: 24
+      4: 1
+      5: 4
+      10: "soulCardDbid"
+    }
+    2 {
+      1: "targetSoulCardDbid"
+      3: 25
+      4: 1
+      5: 4
+      10: "targetSoulCardDbid"
+    }
+    2 {
+      1: "soulWeaponLevel"
+      3: 26
+      4: 1
+      5: 13
+      10: "soulWeaponLevel"
+    }
+    2 {
+      1: "soulCardStar"
+      3: 27
+      4: 1
+      5: 13
+      10: "soulCardStar"
+    }
+    2 {
+      1: "soulCardId"
+      3: 28
+      4: 1
+      5: 13
+      10: "soulCardId"
+    }
+    2 {
+      1: "cardAttrInfo"
+      3: 50
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBCardAttrInfo"
+      10: "cardAttrInfo"
+    }
+    2 {
+      1: "power"
+      3: 51
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "awakenedHonorId"
+      3: 52
+      4: 1
+      5: 13
+      10: "awakenedHonorId"
+    }
+  }
+  4 {
+    1: "PBUserCardData"
+    2 {
+      1: "userCard"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserCard"
+      10: "userCard"
+    }
+    2 {
+      1: "scroll"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserScroll"
+      10: "scroll"
+    }
+    2 {
+      1: "awakenedFightType"
+      3: 3
+      4: 1
+      5: 13
+      10: "awakenedFightType"
+    }
+    2 {
+      1: "awakenedSkillIdList"
+      3: 4
+      4: 3
+      5: 13
+      10: "awakenedSkillIdList"
+    }
+    2 {
+      1: "userAwakenedTalentList"
+      3: 5
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserAwakenedTalent"
+      10: "userAwakenedTalentList"
+    }
+    2 {
+      1: "userMagicCode"
+      3: 6
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserMagicCode"
+      10: "userMagicCode"
+    }
+    2 {
+      1: "attachUserMagicCode"
+      3: 7
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserMagicCode"
+      10: "attachUserMagicCode"
+    }
+    2 {
+      1: "userLegendEquipList"
+      3: 8
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserLegendEquip"
+      10: "userLegendEquipList"
+    }
+    2 {
+      1: "userBadgeList"
+      3: 9
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserBadge"
+      10: "userBadgeList"
+    }
+  }
+  4 {
+    1: "PBUserRelation"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "relationId"
+      3: 2
+      4: 1
+      5: 13
+      10: "relationId"
+    }
+  }
+  4 {
+    1: "PBCardAttrInfo"
+    2 {
+      1: "hpInit"
+      3: 20
+      4: 1
+      5: 4
+      10: "hpInit"
+    }
+    2 {
+      1 {
+        13: 112
+      }
+      3: 21
+      4: 1
+      5: 4
+      10 {
+        13: 112
+      }
+    }
+    2 {
+      1: "speed"
+      3: 22
+      4: 1
+      5: 13
+      10: "speed"
+    }
+    2 {
+      1: "attack"
+      3: 23
+      4: 1
+      5: 13
+      10: "attack"
+    }
+    2 {
+      1: "defend"
+      3: 24
+      4: 1
+      5: 13
+      10: "defend"
+    }
+    2 {
+      1: "rageInit"
+      3: 25
+      4: 1
+      5: 13
+      10: "rageInit"
+    }
+    2 {
+      1: "attrs"
+      3: 39
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBAttr"
+      10: "attrs"
+    }
+  }
+  4 {
+    1: "PBAttr"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 13
+      10: "id"
+    }
+    2 {
+      1: "val"
+      3: 2
+      4: 1
+      5: 2
+      10: "val"
+    }
+  }
+  4 {
+    1: "PBAttrD"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 13
+      10: "id"
+    }
+    2 {
+      1: "value"
+      3: 2
+      4: 1
+      5: 1
+      10: "value"
+    }
+  }
+  4 {
+    1: "PBPlayerCard"
+    2 {
+      1: "cardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "cardId"
+    }
+    2 {
+      1: "fightType"
+      3: 2
+      4: 1
+      5: 13
+      10: "fightType"
+    }
+    2 {
+      1: "factionType"
+      3: 3
+      4: 1
+      5: 13
+      10: "factionType"
+    }
+    2 {
+      1: "level"
+      3: 4
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "star"
+      3: 5
+      4: 1
+      5: 13
+      10: "star"
+    }
+    2 {
+      1: "power"
+      3: 6
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "rage"
+      3: 7
+      4: 1
+      5: 13
+      10: "rage"
+    }
+    2 {
+      1: "position"
+      3: 8
+      4: 1
+      5: 13
+      10: "position"
+    }
+    2 {
+      1: "gender"
+      3: 9
+      4: 1
+      5: 13
+      10: "gender"
+    }
+    2 {
+      1: "size"
+      3: 10
+      4: 1
+      5: 13
+      10: "size"
+    }
+    2 {
+      1: "suitId"
+      3: 11
+      4: 1
+      5: 13
+      10: "suitId"
+    }
+    2 {
+      1: "cardDbId"
+      3: 12
+      4: 1
+      5: 4
+      10: "cardDbId"
+    }
+    2 {
+      1: "awakeLevel"
+      3: 13
+      4: 1
+      5: 13
+      10: "awakeLevel"
+    }
+    2 {
+      1: "heroStatus"
+      3: 14
+      4: 1
+      5: 13
+      10: "heroStatus"
+    }
+    2 {
+      1: "heroStatusInit"
+      3: 15
+      4: 1
+      5: 13
+      10: "heroStatusInit"
+    }
+    2 {
+      1: "isSubstituted"
+      3: 16
+      4: 1
+      5: 13
+      10: "isSubstituted"
+    }
+    2 {
+      1: "attrSuitId"
+      3: 17
+      4: 1
+      5: 13
+      10: "attrSuitId"
+    }
+    2 {
+      1: "soulSpiritId"
+      3: 18
+      4: 1
+      5: 13
+      10: "soulSpiritId"
+    }
+    2 {
+      1: "soulSpiritStar"
+      3: 19
+      4: 1
+      5: 13
+      10: "soulSpiritStar"
+    }
+    2 {
+      1: "soulWeaponLevel"
+      3: 20
+      4: 1
+      5: 13
+      10: "soulWeaponLevel"
+    }
+    2 {
+      1: "soulHolyWeaponId"
+      3: 21
+      4: 1
+      5: 13
+      10: "soulHolyWeaponId"
+    }
+    2 {
+      1: "soulHolyWeaponStar"
+      3: 22
+      4: 1
+      5: 13
+      10: "soulHolyWeaponStar"
+    }
+    2 {
+      1: "cardAttrInfo"
+      3: 30
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBCardAttrInfo"
+      10: "cardAttrInfo"
+    }
+    2 {
+      1: "baseSkillId"
+      3: 41
+      4: 1
+      5: 13
+      10: "baseSkillId"
+    }
+    2 {
+      1: "rageSkillId"
+      3: 42
+      4: 1
+      5: 13
+      10: "rageSkillId"
+    }
+    2 {
+      1: "cardBuffIds"
+      3: 50
+      4: 3
+      5: 13
+      10: "cardBuffIds"
+    }
+    2 {
+      1: "badgeTypes"
+      3: 51
+      4: 3
+      5: 13
+      10: "badgeTypes"
+    }
+    2 {
+      1: "guardRate"
+      3: 23
+      4: 1
+      5: 13
+      10: "guardRate"
+    }
+    2 {
+      1: "guardCdRoundNum"
+      3: 24
+      4: 1
+      5: 13
+      10: "guardCdRoundNum"
+    }
+  }
+  4 {
+    1: "PBUserTeam"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "formation"
+      3: 2
+      4: 1
+      5: 13
+      10: "formation"
+    }
+    2 {
+      1: "cardDbids"
+      3: 3
+      4: 3
+      5: 4
+      10: "cardDbids"
+    }
+    2 {
+      1: "power"
+      3: 4
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "maxPower"
+      3: 5
+      4: 1
+      5: 4
+      10: "maxPower"
+    }
+    2 {
+      1: "spiritsIds"
+      3: 6
+      4: 3
+      5: 13
+      10: "spiritsIds"
+    }
+    2 {
+      1: "holyWeaponIds"
+      3: 7
+      4: 3
+      5: 13
+      10: "holyWeaponIds"
+    }
+    2 {
+      1: "substituteDbids"
+      3: 8
+      4: 3
+      5: 4
+      10: "substituteDbids"
+    }
+    2 {
+      1: "guardIds"
+      3: 9
+      4: 3
+      5: 13
+      10: "guardIds"
+    }
+  }
+  4 {
+    1: "PBUserTeamShow"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "formation"
+      3: 2
+      4: 1
+      5: 13
+      10: "formation"
+    }
+    2 {
+      1: "teamCard"
+      3: 3
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserTeamCardShow"
+      10: "teamCard"
+    }
+    2 {
+      1: "power"
+      3: 4
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "spiritsIds"
+      3: 5
+      4: 3
+      5: 13
+      10: "spiritsIds"
+    }
+    2 {
+      1: "spiritsNum"
+      3: 6
+      4: 1
+      5: 13
+      10: "spiritsNum"
+    }
+    2 {
+      1: "spiritsStars"
+      3: 7
+      4: 3
+      5: 13
+      10: "spiritsStars"
+    }
+    2 {
+      1: "holyWeaponIds"
+      3: 8
+      4: 3
+      5: 13
+      10: "holyWeaponIds"
+    }
+    2 {
+      1: "holyWeaponOpenNum"
+      3: 9
+      4: 1
+      5: 13
+      10: "holyWeaponOpenNum"
+    }
+    2 {
+      1: "holyWeaponStars"
+      3: 10
+      4: 3
+      5: 13
+      10: "holyWeaponStars"
+    }
+    2 {
+      1: "holyWeaponLevel"
+      3: 11
+      4: 3
+      5: 13
+      10: "holyWeaponLevel"
+    }
+    2 {
+      1: "substituteCardList"
+      3: 12
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserTeamCardShow"
+      10: "substituteCardList"
+    }
+    2 {
+      1: "guardList"
+      3: 13
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserGuard"
+      10: "guardList"
+    }
+    2 {
+      1: "guardOpenNum"
+      3: 14
+      4: 1
+      5: 13
+      10: "guardOpenNum"
+    }
+  }
+  4 {
+    1: "PBUserTeamCardShow"
+    2 {
+      1: "cardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "cardId"
+    }
+    2 {
+      1: "pos"
+      3: 2
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "star"
+      3: 4
+      4: 1
+      5: 13
+      10: "star"
+    }
+    2 {
+      1: "suitId"
+      3: 5
+      4: 1
+      5: 13
+      10: "suitId"
+    }
+    2 {
+      1: "cardDbId"
+      3: 6
+      4: 1
+      5: 4
+      10: "cardDbId"
+    }
+    2 {
+      1: "awakeLevel"
+      3: 7
+      4: 1
+      5: 13
+      10: "awakeLevel"
+    }
+  }
+  4 {
+    1: "PBUserSignBox"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "boxId"
+      3: 2
+      4: 1
+      5: 13
+      10: "boxId"
+    }
+    2 {
+      1: "addTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+    2 {
+      1: "drawDay"
+      3: 4
+      4: 1
+      5: 13
+      10: "drawDay"
+    }
+  }
+  4 {
+    1: "PBUserCardShard"
+    2 {
+      1: "itemId"
+      3: 1
+      4: 1
+      5: 13
+      10: "itemId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 4
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserShopItem"
+    2 {
+      1: "itemId"
+      3: 1
+      4: 1
+      5: 13
+      10: "itemId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+    2 {
+      1: "costType"
+      3: 3
+      4: 1
+      5: 13
+      10: "costType"
+    }
+    2 {
+      1: "costMoney"
+      3: 4
+      4: 1
+      5: 13
+      10: "costMoney"
+    }
+    2 {
+      1: "pos"
+      3: 5
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "discount"
+      3: 6
+      4: 1
+      5: 13
+      10: "discount"
+    }
+  }
+  4 {
+    1: "PBUserShop"
+    2 {
+      1: "shopType"
+      3: 1
+      4: 1
+      5: 13
+      10: "shopType"
+    }
+    2 {
+      1: "nextTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "nextTime"
+    }
+    2 {
+      1: "refreshNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "refreshNum"
+    }
+    2 {
+      1: "payRefreshNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "payRefreshNum"
+    }
+    2 {
+      1: "needDbId"
+      3: 5
+      4: 3
+      5: 13
+      10: "needDbId"
+    }
+    2 {
+      1: "shopItem"
+      3: 6
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserShopItem"
+      10: "shopItem"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      10: 0x4d726573
+      12: 0x6d65744974656b72
+    }
+    2 {
+      1: "marketId"
+      3: 1
+      4: 1
+      5: 13
+      10: "marketId"
+    }
+    2 {
+      1: "buyNum"
+      3: 2
+      4: 1
+      5: 13
+      10: "buyNum"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      10: 0x4d726573
+      12: 0x6f666e4974656b72
+    }
+    2 {
+      1: "marketItemList"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserMarketItem"
+      10: "marketItemList"
+    }
+    2 {
+      1: "shopType"
+      3: 2
+      4: 1
+      5: 13
+      10: "shopType"
+    }
+    2 {
+      1: "nextWeekTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "nextWeekTime"
+    }
+  }
+  4 {
+    1: "PBBattle"
+    2 {
+      1: "userShowDamageData"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleUserShowDamageData"
+      10: "userShowDamageData"
+    }
+    2 {
+      1: "battleType"
+      3: 2
+      4: 1
+      5: 13
+      10: "battleType"
+    }
+    2 {
+      1: "video"
+      3: 3
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleVideo"
+      10: "video"
+    }
+    2 {
+      1: "videoId"
+      3: 4
+      4: 1
+      5: 4
+      10: "videoId"
+    }
+    2 {
+      1: "strVideoId"
+      3: 5
+      4: 1
+      5: 9
+      10: "strVideoId"
+    }
+  }
+  4 {
+    1: "PBBattleUserShowDamageData"
+    2 {
+      1: "userShow1"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleUserShow"
+      10: "userShow1"
+    }
+    2 {
+      1: "userShow2"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleUserShow"
+      10: "userShow2"
+    }
+    2 {
+      1: "damageDataList1"
+      3: 3
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleDamageData"
+      10: "damageDataList1"
+    }
+    2 {
+      1: "damageDataList2"
+      3: 4
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleDamageData"
+      10: "damageDataList2"
+    }
+  }
+  4 {
+    1: "PBBattleVideo"
+    2 {
+      1: "team1"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleTeam"
+      10: "team1"
+    }
+    2 {
+      1: "team2"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleTeam"
+      10: "team2"
+    }
+    2 {
+      1: "winSide"
+      3: 3
+      4: 1
+      5: 13
+      10: "winSide"
+    }
+    2 {
+      1: "roundList"
+      3: 4
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleVideoRound"
+      10: "roundList"
+    }
+    2 {
+      1: "roundMax"
+      3: 5
+      4: 1
+      5: 13
+      10: "roundMax"
+    }
+  }
+  4 {
+    1: "PBBattleTeam"
+    2 {
+      1: "cardList"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBPlayerCard"
+      10: "cardList"
+    }
+    2 {
+      1: "power"
+      3: 2
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "finalHpList"
+      3: 3
+      4: 3
+      5: 4
+      10: "finalHpList"
+    }
+    2 {
+      1: "spiritsList"
+      3: 4
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBPlayerCard"
+      10: "spiritsList"
+    }
+    2 {
+      1: "spiritsNum"
+      3: 5
+      4: 1
+      5: 13
+      10: "spiritsNum"
+    }
+    2 {
+      1: "spiritsRound"
+      3: 6
+      4: 1
+      5: 13
+      10: "spiritsRound"
+    }
+    2 {
+      1: "holyWeaponList"
+      3: 7
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBPlayerCard"
+      10: "holyWeaponList"
+    }
+    2 {
+      1: "holyWeaponOpenNum"
+      3: 8
+      4: 1
+      5: 13
+      10: "holyWeaponOpenNum"
+    }
+    2 {
+      1: "holyWeaponRound"
+      3: 9
+      4: 1
+      5: 13
+      10: "holyWeaponRound"
+    }
+    2 {
+      1 {
+        14 {
+          14: 0x69747362
+        }
+        14: 0x694c6574
+        14 {
+        }
+      }
+      3: 10
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBPlayerCard"
+      10 {
+        14 {
+          14: 0x69747362
+        }
+        14: 0x694c6574
+        14 {
+        }
+      }
+    }
+    2 {
+      1: "guardOpenNum"
+      3: 11
+      4: 1
+      5: 13
+      10: "guardOpenNum"
+    }
+    2 {
+      1: "guardList"
+      3: 12
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBPlayerCard"
+      10: "guardList"
+    }
+    2 {
+      1: "guardRoundList"
+      3: 13
+      4: 3
+      5: 13
+      10: "guardRoundList"
+    }
+  }
+  4 {
+    1: "PBBattleUserShow"
+    2 {
+      1: "name"
+      3: 1
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "icon"
+      3: 2
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "nameInfo"
+      3: 3
+      4: 1
+      5: 9
+      10: "nameInfo"
+    }
+  }
+  4 {
+    1: "PBBattleDamageData"
+    2 {
+      1: "pos"
+      3: 1
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "dataList"
+      3: 2
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBValue"
+      10: "dataList"
+    }
+    2 {
+      1: "cardId"
+      3: 3
+      4: 1
+      5: 13
+      10: "cardId"
+    }
+    2 {
+      1: "isSubstitute"
+      3: 4
+      4: 1
+      5: 13
+      10: "isSubstitute"
+    }
+  }
+  4 {
+    1: "PBBattleVideoRound"
+    2 {
+      1: "round"
+      3: 1
+      4: 1
+      5: 13
+      10: "round"
+    }
+    2 {
+      1: "actionList"
+      3: 2
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleVideoAction"
+      10: "actionList"
+    }
+  }
+  4 {
+    1: "PBBattleVideoAction"
+    2 {
+      1: "activeSide"
+      3: 1
+      4: 1
+      5: 13
+      10: "activeSide"
+    }
+    2 {
+      1: "activePosition"
+      3: 2
+      4: 1
+      5: 13
+      10: "activePosition"
+    }
+    2 {
+      1: "actionType"
+      3: 3
+      4: 1
+      5: 13
+      10: "actionType"
+    }
+    2 {
+      1: "skillId"
+      3: 4
+      4: 1
+      5: 13
+      10: "skillId"
+    }
+    2 {
+      1: "targetList"
+      3: 5
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleVideoTarget"
+      10: "targetList"
+    }
+    2 {
+      1: "skillActionFrom"
+      3: 6
+      4: 1
+      5: 13
+      10: "skillActionFrom"
+    }
+    2 {
+      1: "skillNum"
+      3: 7
+      4: 1
+      5: 13
+      10: "skillNum"
+    }
+  }
+  4 {
+    1: "PBBattleVideoTarget"
+    2 {
+      1: "isEnemy"
+      3: 1
+      4: 1
+      5: 8
+      10: "isEnemy"
+    }
+    2 {
+      1: "targetSide"
+      3: 2
+      4: 1
+      5: 13
+      10: "targetSide"
+    }
+    2 {
+      1: "targetPosition"
+      3: 3
+      4: 1
+      5: 13
+      10: "targetPosition"
+    }
+    2 {
+      1: "damage"
+      3: 4
+      4: 1
+      5: 4
+      10: "damage"
+    }
+    2 {
+      1: "response"
+      3: 5
+      4: 1
+      5: 13
+      10: "response"
+    }
+    2 {
+      1: "isDead"
+      3: 6
+      4: 1
+      5: 8
+      10: "isDead"
+    }
+    2 {
+      1: "effectList"
+      3: 9
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattleVideoEffect"
+      10: "effectList"
+    }
+  }
+  4 {
+    1: "PBBattleVideoEffect"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "attackerPos"
+      3: 2
+      4: 1
+      5: 5
+      10: "attackerPos"
+    }
+    2 {
+      1: "buffId"
+      3: 3
+      4: 1
+      5: 5
+      10: "buffId"
+    }
+    2 {
+      1: "param"
+      3: 4
+      4: 1
+      5: 13
+      10: "param"
+    }
+    2 {
+      1: "paramValue"
+      3: 5
+      4: 1
+      5: 5
+      10: "paramValue"
+    }
+    2 {
+      1: "value"
+      3: 6
+      4: 1
+      5: 4
+      10: "value"
+    }
+    2 {
+      1: "round"
+      3: 7
+      4: 1
+      5: 13
+      10: "round"
+    }
+    2 {
+      1: "buffUniqueIdx"
+      3: 8
+      4: 1
+      5: 13
+      10: "buffUniqueIdx"
+    }
+    2 {
+      1: "groupIdx"
+      3: 9
+      4: 1
+      5: 13
+      10: "groupIdx"
+    }
+    2 {
+      1: "groupBuffId"
+      3: 10
+      4: 1
+      5: 13
+      10: "groupBuffId"
+    }
+    2 {
+      1: "param2"
+      3: 11
+      4: 1
+      5: 13
+      10: "param2"
+    }
+    2 {
+      1: "paramValue2"
+      3: 12
+      4: 1
+      5: 5
+      10: "paramValue2"
+    }
+    2 {
+      1: "showType"
+      3: 13
+      4: 1
+      5: 13
+      10: "showType"
+    }
+    2 {
+      1: "triggerType"
+      3: 14
+      4: 1
+      5: 13
+      10: "triggerType"
+    }
+    2 {
+      1: "value2"
+      3: 15
+      4: 1
+      5: 4
+      10: "value2"
+    }
+  }
+  4 {
+    1: "PBBattleVideoFile"
+    2 {
+      1: "battle"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattle"
+      10: "battle"
+    }
+    2 {
+      1: "serverId"
+      3: 2
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "userId"
+      3: 3
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "createTime"
+      3: 4
+      4: 1
+      5: 4
+      10: "createTime"
+    }
+  }
+  4 {
+    1: "PBUserHandbook"
+    2 {
+      1: "cardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "cardId"
+    }
+    2 {
+      1: "levelMax"
+      3: 2
+      4: 1
+      5: 13
+      10: "levelMax"
+    }
+    2 {
+      1: "starMax"
+      3: 3
+      4: 1
+      5: 13
+      10: "starMax"
+    }
+    2 {
+      1: "isReward"
+      3: 4
+      4: 1
+      5: 13
+      10: "isReward"
+    }
+    2 {
+      1: "unlockIds"
+      3: 5
+      4: 3
+      5: 13
+      10: "unlockIds"
+    }
+    2 {
+      1: "isRead"
+      3: 6
+      4: 1
+      5: 13
+      10: "isRead"
+    }
+  }
+  4 {
+    1: "PBUserFrame"
+    2 {
+      1: "frameId"
+      3: 1
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "limitTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "limitTime"
+    }
+    2 {
+      1: "isRead"
+      3: 3
+      4: 1
+      5: 13
+      10: "isRead"
+    }
+  }
+  4 {
+    1: "PBUserHonor"
+    2 {
+      1: "honorId"
+      3: 1
+      4: 1
+      5: 13
+      10: "honorId"
+    }
+    2 {
+      1: "limitTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "limitTime"
+    }
+    2 {
+      1: "status"
+      3: 3
+      4: 1
+      5: 13
+      10: "status"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      10: 0x4c726573
+      12: 0x646e6567
+      8: 0x70697571
+    }
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "userId"
+      3: 2
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "equipId"
+      3: 3
+      4: 1
+      5: 13
+      10: "equipId"
+    }
+    2 {
+      1: "level"
+      3: 4
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "levelExp"
+      3: 5
+      4: 1
+      5: 13
+      10: "levelExp"
+    }
+    2 {
+      1: "star"
+      3: 6
+      4: 1
+      5: 13
+      10: "star"
+    }
+    2 {
+      1: "refineLv"
+      3: 7
+      4: 1
+      5: 13
+      10: "refineLv"
+    }
+    2 {
+      1: "soulLv"
+      3: 8
+      4: 1
+      5: 13
+      10: "soulLv"
+    }
+    2 {
+      1: "soulExp"
+      3: 9
+      4: 1
+      5: 13
+      10: "soulExp"
+    }
+    2 {
+      1: "cardDbid"
+      3: 10
+      4: 1
+      5: 4
+      10: "cardDbid"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      10: 0x45726573
+      14: 0x6472616853706975
+    }
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "equipShardId"
+      3: 2
+      4: 1
+      5: 13
+      10: "equipShardId"
+    }
+    2 {
+      1: "num"
+      3: 3
+      4: 1
+      5: 13
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBAstrologyRecord"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "userName"
+      3: 2
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "itemId"
+      3: 3
+      4: 1
+      5: 13
+      10: "itemId"
+    }
+  }
+  4 {
+    1: "PBFamilyInfo"
+    2 {
+      1: "familyId"
+      3: 1
+      4: 1
+      5: 4
+      10: "familyId"
+    }
+    2 {
+      1: "familyName"
+      3: 2
+      4: 1
+      5: 9
+      10: "familyName"
+    }
+    2 {
+      1: "familyIcon"
+      3: 3
+      4: 1
+      5: 13
+      10: "familyIcon"
+    }
+    2 {
+      1: "familyLevel"
+      3: 4
+      4: 1
+      5: 13
+      10: "familyLevel"
+    }
+    2 {
+      1: "familyExp"
+      3: 5
+      4: 1
+      5: 13
+      10: "familyExp"
+    }
+    2 {
+      1: "memberNum"
+      3: 6
+      4: 1
+      5: 13
+      10: "memberNum"
+    }
+    2 {
+      1: "limitType"
+      3: 7
+      4: 1
+      5: 13
+      10: "limitType"
+    }
+    2 {
+      1: "limitLevel"
+      3: 8
+      4: 1
+      5: 13
+      10: "limitLevel"
+    }
+    2 {
+      1: "notice"
+      3: 9
+      4: 1
+      5: 9
+      10: "notice"
+    }
+    2 {
+      1: "isApply"
+      3: 10
+      4: 1
+      5: 8
+      10: "isApply"
+    }
+    2 {
+      1: "leaveTime"
+      3: 11
+      4: 1
+      5: 13
+      10: "leaveTime"
+    }
+    2 {
+      1: "contribution"
+      3: 12
+      4: 1
+      5: 13
+      10: "contribution"
+    }
+    2 {
+      1: "dissolveTime"
+      3: 13
+      4: 1
+      5: 13
+      10: "dissolveTime"
+    }
+    2 {
+      1: "isRenameFree"
+      3: 14
+      4: 1
+      5: 8
+      10: "isRenameFree"
+    }
+    2 {
+      1: "tempEndTime"
+      3: 15
+      4: 1
+      5: 13
+      10: "tempEndTime"
+    }
+    2 {
+      1: "serverId"
+      3: 16
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "power"
+      3: 17
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "familyPriceCost"
+      3: 18
+      4: 1
+      5: 4
+      10: "familyPriceCost"
+    }
+  }
+  4 {
+    1: "PBFamilyInfoShow"
+    2 {
+      1: "familyId"
+      3: 1
+      4: 1
+      5: 4
+      10: "familyId"
+    }
+    2 {
+      1: "familyName"
+      3: 2
+      4: 1
+      5: 9
+      10: "familyName"
+    }
+    2 {
+      1: "familyIcon"
+      3: 3
+      4: 1
+      5: 13
+      10: "familyIcon"
+    }
+    2 {
+      1: "familyLevel"
+      3: 4
+      4: 1
+      5: 13
+      10: "familyLevel"
+    }
+    2 {
+      1: "familyServerId"
+      3: 5
+      4: 1
+      5: 13
+      10: "familyServerId"
+    }
+    2 {
+      1: "contribution"
+      3: 6
+      4: 1
+      5: 13
+      10: "contribution"
+    }
+    2 {
+      1: "power"
+      3: 7
+      4: 1
+      5: 4
+      10: "power"
+    }
+  }
+  4 {
+    1: "PBUserVault"
+    2 {
+      1: "count1"
+      3: 1
+      4: 1
+      5: 13
+      10: "count1"
+    }
+    2 {
+      1: "count2"
+      3: 2
+      4: 1
+      5: 13
+      10: "count2"
+    }
+    2 {
+      1: "count3"
+      3: 3
+      4: 1
+      5: 13
+      10: "count3"
+    }
+  }
+  4 {
+    1: "PBUserSecretGarden"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "level"
+      3: 2
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "freeNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "freeNum"
+    }
+    2 {
+      1: "payNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "payNum"
+    }
+  }
+  4 {
+    1: "PBUserStage"
+    2 {
+      1: "chapterIdMax"
+      3: 1
+      4: 1
+      5: 13
+      10: "chapterIdMax"
+    }
+    2 {
+      1: "stageIdMax"
+      3: 2
+      4: 1
+      5: 13
+      10: "stageIdMax"
+    }
+    2 {
+      1: "hungTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "hungTime"
+    }
+    2 {
+      1: "fastBattleFreeNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "fastBattleFreeNum"
+    }
+    2 {
+      1: "fastBattlePayNum"
+      3: 5
+      4: 1
+      5: 13
+      10: "fastBattlePayNum"
+    }
+    2 {
+      1: "passStageReward"
+      3: 6
+      4: 3
+      5: 13
+      10: "passStageReward"
+    }
+  }
+  4 {
+    1: "PBUserTower"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "layerNum"
+      3: 2
+      4: 1
+      5: 13
+      10: "layerNum"
+    }
+    2 {
+      1: "personalReward"
+      3: 3
+      4: 1
+      5: 13
+      10: "personalReward"
+    }
+    2 {
+      1: "isDailyReward"
+      3: 4
+      4: 1
+      5: 8
+      10: "isDailyReward"
+    }
+    2 {
+      1: "fightNum"
+      3: 5
+      4: 1
+      5: 13
+      10: "fightNum"
+    }
+    2 {
+      1: "dailyLayerNum"
+      3: 6
+      4: 1
+      5: 13
+      10: "dailyLayerNum"
+    }
+  }
+  4 {
+    1: "PBUserDispatch"
+    2 {
+      1: "refreshNum"
+      3: 1
+      4: 1
+      5: 13
+      10: "refreshNum"
+    }
+    2 {
+      1: "isAutoTake"
+      3: 2
+      4: 1
+      5: 8
+      10: "isAutoTake"
+    }
+  }
+  4 {
+    1: "PBUserDispatchTask"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "userId"
+      3: 2
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "taskId"
+      3: 3
+      4: 1
+      5: 13
+      10: "taskId"
+    }
+    2 {
+      1: "endTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "cardList"
+      3: 5
+      4: 1
+      5: 9
+      10: "cardList"
+    }
+  }
+  4 {
+    1: "PBRankArrivalReward"
+    2 {
+      1: "rewardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "rewardId"
+    }
+    2 {
+      1: "userId"
+      3: 2
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "userName"
+      3: 3
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "icon"
+      3: 4
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "frameId"
+      3: 5
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+  }
+  4 {
+    1: "PBUserRankLike"
+    2 {
+      1: "likeNum"
+      3: 1
+      4: 1
+      5: 13
+      10: "likeNum"
+    }
+    2 {
+      1: "likeUserId"
+      3: 2
+      4: 3
+      5: 4
+      10: "likeUserId"
+    }
+  }
+  4 {
+    1: "PBUserFightCut"
+    2 {
+      1: "battleType"
+      3: 1
+      4: 1
+      5: 13
+      10: "battleType"
+    }
+  }
+  4 {
+    1: "PBUserModuleTime"
+    2 {
+      1: "itemTime"
+      3: 1
+      4: 1
+      5: 4
+      10: "itemTime"
+    }
+    2 {
+      1: "cardTime"
+      3: 2
+      4: 1
+      5: 4
+      10: "cardTime"
+    }
+    2 {
+      1: "signBoxTime"
+      3: 3
+      4: 1
+      5: 4
+      10: "signBoxTime"
+    }
+    2 {
+      1: "cardShardTime"
+      3: 4
+      4: 1
+      5: 4
+      10: "cardShardTime"
+    }
+    2 {
+      1: "iconFrameTime"
+      3: 5
+      4: 1
+      5: 4
+      10: "iconFrameTime"
+    }
+    2 {
+      1: "honorTime"
+      3: 6
+      4: 1
+      5: 4
+      10: "honorTime"
+    }
+    2 {
+      1: "equipTime"
+      3: 7
+      4: 1
+      5: 4
+      10: "equipTime"
+    }
+    2 {
+      1: "badgeTime"
+      3: 8
+      4: 1
+      5: 4
+      10: "badgeTime"
+    }
+  }
+  4 {
+    1: "PBUserEquip"
+    2 {
+      1: "equipId"
+      3: 1
+      4: 1
+      5: 13
+      10: "equipId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 4
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserBadge"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "badgeId"
+      3: 2
+      4: 1
+      5: 13
+      10: "badgeId"
+    }
+    2 {
+      1: "isLock"
+      3: 3
+      4: 1
+      5: 13
+      10: "isLock"
+    }
+    2 {
+      1: "cardDbId"
+      3: 4
+      4: 1
+      5: 4
+      10: "cardDbId"
+    }
+    2 {
+      1: "isRefine"
+      3: 5
+      4: 1
+      5: 13
+      10: "isRefine"
+    }
+    2 {
+      1: "skillTypes"
+      3: 10
+      4: 3
+      5: 13
+      10: "skillTypes"
+    }
+    2 {
+      1: "skillLvs"
+      3: 11
+      4: 3
+      5: 13
+      10: "skillLvs"
+    }
+    2 {
+      1: "rebuildSkillTypes"
+      3: 12
+      4: 3
+      5: 13
+      10: "rebuildSkillTypes"
+    }
+    2 {
+      1: "rebuildSkillLvs"
+      3: 13
+      4: 3
+      5: 13
+      10: "rebuildSkillLvs"
+    }
+  }
+  4 {
+    1: "PBUserBadgeInfo"
+    2 {
+      1: "compoundLuck"
+      3: 1
+      4: 1
+      5: 13
+      10: "compoundLuck"
+    }
+    2 {
+      1: "rebuildLuck"
+      3: 2
+      4: 1
+      5: 13
+      10: "rebuildLuck"
+    }
+    2 {
+      1: "rebuildLuckRed"
+      3: 3
+      4: 1
+      5: 13
+      10: "rebuildLuckRed"
+    }
+  }
+  4 {
+    1: "PBUserHeroDraw"
+    2 {
+      1: "commonDrawFreeNum"
+      3: 1
+      4: 1
+      5: 13
+      10: "commonDrawFreeNum"
+    }
+    2 {
+      1: "highLevelDrawFreeNum"
+      3: 2
+      4: 1
+      5: 13
+      10: "highLevelDrawFreeNum"
+    }
+    2 {
+      1: "drawScore"
+      3: 3
+      4: 1
+      5: 4
+      10: "drawScore"
+    }
+    2 {
+      1: "isGuide"
+      3: 4
+      4: 1
+      5: 13
+      10: "isGuide"
+    }
+    2 {
+      1: "highLevelDrawSingleNum"
+      3: 5
+      4: 1
+      5: 13
+      10: "highLevelDrawSingleNum"
+    }
+  }
+  4 {
+    1: "PBUserCountryDraw"
+    2 {
+      1: "drawScore"
+      3: 1
+      4: 1
+      5: 4
+      10: "drawScore"
+    }
+  }
+  4 {
+    1: "PBUserHeroReplace"
+    2 {
+      1: "cardDbId"
+      3: 1
+      4: 1
+      5: 4
+      10: "cardDbId"
+    }
+    2 {
+      1: "targetCardId"
+      3: 2
+      4: 1
+      5: 13
+      10: "targetCardId"
+    }
+    2 {
+      1: "status"
+      3: 3
+      4: 1
+      5: 13
+      10: "status"
+    }
+  }
+  4 {
+    1: "PBUserVipGift"
+    2 {
+      1: "buyVip"
+      3: 1
+      4: 3
+      5: 13
+      10: "buyVip"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      8: 0x656d6954616e6572
+    }
+    2 {
+      1: "endTime"
+      3: 1
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "startTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "startTime"
+    }
+  }
+  4 {
+    1: "PBUserFamilyCommonSkill"
+    2 {
+      1: "fightType"
+      3: 1
+      4: 1
+      5: 13
+      10: "fightType"
+    }
+    2 {
+      1: "positionLevel"
+      3: 2
+      4: 3
+      5: 13
+      10: "positionLevel"
+    }
+    2 {
+      1: "unlockSkillLevel"
+      3: 3
+      4: 1
+      5: 13
+      10: "unlockSkillLevel"
+    }
+    2 {
+      1: "resetNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "resetNum"
+    }
+  }
+  4 {
+    1: "PBUserFamilyHighSkill"
+    2 {
+      1: "level"
+      3: 1
+      4: 1
+      5: 13
+      10: "level"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      10: 0x46726573
+      12: 0x746e7548796c696d
+    }
+    2 {
+      1: "fightNum"
+      3: 1
+      4: 1
+      5: 13
+      10: "fightNum"
+    }
+    2 {
+      1: "lastDamage"
+      3: 2
+      4: 1
+      5: 4
+      10: "lastDamage"
+    }
+    2 {
+      1: "assembleTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "assembleTime"
+    }
+    2 {
+      1: "buyNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "buyNum"
+    }
+  }
+  4 {
+    1: "PBFamilyHuntInfo"
+    2 {
+      1 {
+        13: 112
+      }
+      3: 1
+      4: 3
+      5: 4
+      10 {
+        13: 112
+      }
+    }
+    2 {
+      1: "huntId"
+      3: 2
+      4: 1
+      5: 13
+      10: "huntId"
+    }
+    2 {
+      1: "initHp"
+      3: 3
+      4: 1
+      5: 4
+      10: "initHp"
+    }
+  }
+  4 {
+    1: "PBUserIapGift"
+    2 {
+      1 {
+        13: 0x6449746669477061
+      }
+      3: 1
+      4: 1
+      5: 13
+      10 {
+        13: 0x6449746669477061
+      }
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+    2 {
+      1: "endTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "selectNum"
+      3: 4
+      4: 3
+      5: 13
+      10: "selectNum"
+    }
+    2 {
+      1: "selectIndex"
+      3: 5
+      4: 3
+      5: 13
+      10: "selectIndex"
+    }
+  }
+  4 {
+    1: "PBUserMonthCard"
+    2 {
+      1: "commonExpireTime"
+      3: 1
+      4: 1
+      5: 13
+      10: "commonExpireTime"
+    }
+    2 {
+      1: "commonNum"
+      3: 2
+      4: 1
+      5: 13
+      10: "commonNum"
+    }
+    2 {
+      1: "highExpireTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "highExpireTime"
+    }
+    2 {
+      1: "highNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "highNum"
+    }
+    2 {
+      1 {
+        13: 0x526e6f6d6d6f4373
+        12: 0x64726177
+      }
+      3: 5
+      4: 1
+      5: 8
+      10 {
+        13: 0x526e6f6d6d6f4373
+        12: 0x64726177
+      }
+    }
+    2 {
+      1: "isHighReward"
+      3: 6
+      4: 1
+      5: 8
+      10: "isHighReward"
+    }
+    2 {
+      1: "isCommonActivate"
+      3: 7
+      4: 1
+      5: 8
+      10: "isCommonActivate"
+    }
+    2 {
+      1: "isHighActivate"
+      3: 8
+      4: 1
+      5: 8
+      10: "isHighActivate"
+    }
+  }
+  4 {
+    1: "PBUserGrowthFund"
+    2 {
+      1: "groupId"
+      3: 1
+      4: 1
+      5: 13
+      10: "groupId"
+    }
+    2 {
+      1: "isBuy"
+      3: 2
+      4: 1
+      5: 8
+      10: "isBuy"
+    }
+    2 {
+      1: "freeReward"
+      3: 3
+      4: 3
+      5: 13
+      10: "freeReward"
+    }
+    2 {
+      1: "payReward"
+      3: 4
+      4: 3
+      5: 13
+      10: "payReward"
+    }
+  }
+  4 {
+    1: "PBUserIapGiftPush"
+    2 {
+      1 {
+        13: 0x6449746669477061
+      }
+      3: 1
+      4: 1
+      5: 13
+      10 {
+        13: 0x6449746669477061
+      }
+    }
+    2 {
+      1: "endTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "pushBuyNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "pushBuyNum"
+    }
+    2 {
+      1: "repeatedType"
+      3: 4
+      4: 1
+      5: 13
+      10: "repeatedType"
+    }
+    2 {
+      1: "param"
+      3: 5
+      4: 1
+      5: 13
+      10: "param"
+    }
+    2 {
+      1: "selectNum"
+      3: 6
+      4: 3
+      5: 13
+      10: "selectNum"
+    }
+    2 {
+      1: "selectIndex"
+      3: 7
+      4: 3
+      5: 13
+      10: "selectIndex"
+    }
+  }
+  4 {
+    1: "PBUserDailySign"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "day"
+      3: 2
+      4: 1
+      5: 13
+      10: "day"
+    }
+    2 {
+      1: "isReward"
+      3: 3
+      4: 1
+      5: 8
+      10: "isReward"
+    }
+    2 {
+      1: "isCharge"
+      3: 4
+      4: 1
+      5: 8
+      10: "isCharge"
+    }
+    2 {
+      1 {
+        13: 0x5265677261684373
+        12: 0x64726177
+      }
+      3: 5
+      4: 1
+      5: 8
+      10 {
+        13: 0x5265677261684373
+        12: 0x64726177
+      }
+    }
+  }
+  4 {
+    1: "PBUserFightAct"
+    2 {
+      1: "fightLv"
+      3: 1
+      4: 1
+      5: 13
+      10: "fightLv"
+    }
+    2 {
+      1: "freeGet"
+      3: 2
+      4: 3
+      5: 13
+      10: "freeGet"
+    }
+    2 {
+      1: "advancedGet"
+      3: 3
+      4: 3
+      5: 13
+      10: "advancedGet"
+    }
+    2 {
+      1: "isActive"
+      3: 4
+      4: 1
+      5: 13
+      10: "isActive"
+    }
+    2 {
+      1: "fightExp"
+      3: 5
+      4: 1
+      5: 4
+      10: "fightExp"
+    }
+    2 {
+      1: "type"
+      3: 6
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1 {
+        13: 0x656b6154786f4273
+      }
+      3: 7
+      4: 1
+      5: 13
+      10 {
+        13: 0x656b6154786f4273
+      }
+    }
+    2 {
+      1: "endTime"
+      3: 8
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+  }
+  4 {
+    1: "PBUserTempleCard"
+    2 {
+      1: "cardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "cardId"
+    }
+    2 {
+      1: "star"
+      3: 2
+      4: 1
+      5: 13
+      10: "star"
+    }
+    2 {
+      1: "num"
+      3: 3
+      4: 1
+      5: 13
+      10: "num"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      10: 0x54726573
+      12: 0x656c706d
+    }
+    2 {
+      1: "level"
+      3: 1
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "contribution"
+      3: 2
+      4: 1
+      5: 13
+      10: "contribution"
+    }
+  }
+  4 {
+    1: "PBUserWeekendAct"
+    2 {
+      1: "startTime"
+      3: 1
+      4: 1
+      5: 13
+      10: "startTime"
+    }
+    2 {
+      1: "endTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "rewardGet"
+      3: 3
+      4: 3
+      5: 13
+      10: "rewardGet"
+    }
+  }
+  4 {
+    1: "PBUserHungUpAct"
+    2 {
+      1: "groupId"
+      3: 1
+      4: 1
+      5: 13
+      10: "groupId"
+    }
+    2 {
+      1: "endTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "subGroupId"
+      3: 3
+      4: 1
+      5: 13
+      10: "subGroupId"
+    }
+    2 {
+      1: "oldMarketTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "oldMarketTime"
+    }
+    2 {
+      1: "newMarketTime"
+      3: 5
+      4: 1
+      5: 13
+      10: "newMarketTime"
+    }
+    2 {
+      1: "oldSubGroupId"
+      3: 6
+      4: 1
+      5: 13
+      10: "oldSubGroupId"
+    }
+  }
+  4 {
+    1: "PBUserDan"
+    2 {
+      1: "dan"
+      3: 1
+      4: 1
+      5: 13
+      10: "dan"
+    }
+    2 {
+      1: "score"
+      3: 2
+      4: 1
+      5: 13
+      10: "score"
+    }
+    2 {
+      1: "fightNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "fightNum"
+    }
+    2 {
+      1: "maxDan"
+      3: 4
+      4: 1
+      5: 13
+      10: "maxDan"
+    }
+    2 {
+      1: "rewardDan"
+      3: 5
+      4: 1
+      5: 13
+      10: "rewardDan"
+    }
+    2 {
+      1: "rank"
+      3: 6
+      4: 1
+      5: 13
+      10: "rank"
+    }
+    2 {
+      1: "serverRank"
+      3: 7
+      4: 1
+      5: 13
+      10: "serverRank"
+    }
+  }
+  4 {
+    1: "PBUserDanRecord"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "userId"
+      3: 2
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "enemyInfo"
+      3: 3
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserInfoShow"
+      10: "enemyInfo"
+    }
+    2 {
+      1: "score"
+      3: 4
+      4: 1
+      5: 17
+      10: "score"
+    }
+    2 {
+      1: "addtime"
+      3: 5
+      4: 1
+      5: 13
+      10: "addtime"
+    }
+    2 {
+      1: "win"
+      3: 6
+      4: 1
+      5: 13
+      10: "win"
+    }
+    2 {
+      1: "vid"
+      3: 7
+      4: 1
+      5: 4
+      10: "vid"
+    }
+    2 {
+      1: "defend"
+      3: 8
+      4: 1
+      5: 13
+      10: "defend"
+    }
+    2 {
+      1: "serverId"
+      3: 9
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "strVideoId"
+      3: 10
+      4: 1
+      5: 9
+      10: "strVideoId"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      10: 0x44726573
+      12: 0x6b7361547961446e
+    }
+    2 {
+      1: "taskId"
+      3: 1
+      4: 1
+      5: 13
+      10: "taskId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+    2 {
+      1: "isReward"
+      3: 3
+      4: 1
+      5: 8
+      10: "isReward"
+    }
+  }
+  4 {
+    1: "PBDanData"
+    2 {
+      1: "nextStartTime"
+      3: 1
+      4: 1
+      5: 13
+      10: "nextStartTime"
+    }
+    2 {
+      1: "nextEndTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "nextEndTime"
+    }
+  }
+  4 {
+    1: "PBWindowData"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "dan"
+      3: 2
+      4: 1
+      5: 13
+      10: "dan"
+    }
+    2 {
+      1: "rank"
+      3: 3
+      4: 1
+      5: 13
+      10: "rank"
+    }
+    2 {
+      1: "nextStartTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "nextStartTime"
+    }
+    2 {
+      1: "nextEndTime"
+      3: 5
+      4: 1
+      5: 13
+      10: "nextEndTime"
+    }
+    2 {
+      1: "isOpen"
+      3: 6
+      4: 1
+      5: 8
+      10: "isOpen"
+    }
+  }
+  4 {
+    1: "PBUserFundMonthly"
+    2 {
+      1: "groupId"
+      3: 1
+      4: 1
+      5: 13
+      10: "groupId"
+    }
+    2 {
+      1: "reward1"
+      3: 2
+      4: 3
+      5: 13
+      10: "reward1"
+    }
+    2 {
+      1: "reward2"
+      3: 3
+      4: 3
+      5: 13
+      10: "reward2"
+    }
+    2 {
+      1: "select1"
+      3: 4
+      4: 3
+      5: 13
+      10: "select1"
+    }
+    2 {
+      1: "select2"
+      3: 5
+      4: 3
+      5: 13
+      10: "select2"
+    }
+    2 {
+      1: "resetTime"
+      3: 6
+      4: 1
+      5: 13
+      10: "resetTime"
+    }
+    2 {
+      1 {
+        13: 0x3165677261684373
+      }
+      3: 7
+      4: 1
+      5: 8
+      10 {
+        13: 0x3165677261684373
+      }
+    }
+    2 {
+      1 {
+        13: 0x3265677261684373
+      }
+      3: 8
+      4: 1
+      5: 8
+      10 {
+        13: 0x3265677261684373
+      }
+    }
+    2 {
+      1 {
+        13: 0x68746e6f
+      }
+      3: 9
+      4: 1
+      5: 13
+      10 {
+        13: 0x68746e6f
+      }
+    }
+  }
+  4 {
+    1: "PBUserSpirits"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "userId"
+      3: 2
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "spiritsId"
+      3: 3
+      4: 1
+      5: 13
+      10: "spiritsId"
+    }
+    2 {
+      1: "star"
+      3: 4
+      4: 1
+      5: 13
+      10: "star"
+    }
+    2 {
+      1: "isFestivalDispatch"
+      3: 5
+      4: 1
+      5: 13
+      10: "isFestivalDispatch"
+    }
+    2 {
+      1: "soulSpiritsId"
+      3: 6
+      4: 1
+      5: 13
+      10: "soulSpiritsId"
+    }
+  }
+  4 {
+    1: "PBUserSpiritsData"
+    2 {
+      1: "userSpirits"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserSpirits"
+      10: "userSpirits"
+    }
+    2 {
+      1: "soulSpiritsStar"
+      3: 2
+      4: 1
+      5: 13
+      10: "soulSpiritsStar"
+    }
+  }
+  4 {
+    1: "PBUserSpiritsShard"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "spiritsShardId"
+      3: 2
+      4: 1
+      5: 13
+      10: "spiritsShardId"
+    }
+    2 {
+      1: "num"
+      3: 3
+      4: 1
+      5: 13
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserMotifAct"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "themeId"
+      3: 2
+      4: 1
+      5: 13
+      10: "themeId"
+    }
+    2 {
+      1: "startTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "startTime"
+    }
+    2 {
+      1: "endTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "subActId"
+      3: 5
+      4: 3
+      5: 13
+      10: "subActId"
+    }
+    2 {
+      1: "isBackMail"
+      3: 6
+      4: 1
+      5: 13
+      10: "isBackMail"
+    }
+    2 {
+      1: "systemType"
+      3: 7
+      4: 1
+      5: 13
+      10: "systemType"
+    }
+  }
+  4 {
+    1: "PBUserNewServerAct"
+    2 {
+      1: "isBoxSelect"
+      3: 1
+      4: 1
+      5: 13
+      10: "isBoxSelect"
+    }
+  }
+  4 {
+    1: "PBUserTowerFund"
+    2 {
+      1: "groupId"
+      3: 1
+      4: 1
+      5: 13
+      10: "groupId"
+    }
+    2 {
+      1: "isBuy"
+      3: 2
+      4: 1
+      5: 8
+      10: "isBuy"
+    }
+    2 {
+      1: "freeReward"
+      3: 3
+      4: 3
+      5: 13
+      10: "freeReward"
+    }
+    2 {
+      1: "payReward"
+      3: 4
+      4: 3
+      5: 13
+      10: "payReward"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      10: 0x46726573
+      12: 0x68736957796c696d
+    }
+    2 {
+      1: "wishId"
+      3: 1
+      4: 1
+      5: 13
+      10: "wishId"
+    }
+    2 {
+      1 {
+        12: 0x6d754e7473697373
+      }
+      3: 2
+      4: 1
+      5: 13
+      10 {
+        12: 0x6d754e7473697373
+      }
+    }
+    2 {
+      1: "totalAssistNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "totalAssistNum"
+    }
+    2 {
+      1: "assistedNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "assistedNum"
+    }
+    2 {
+      1: "assistTaskReward"
+      3: 5
+      4: 3
+      5: 13
+      10: "assistTaskReward"
+    }
+  }
+  4 {
+    1: "PBUserFamilyBattle"
+    2 {
+      1: "fightNum"
+      3: 1
+      4: 1
+      5: 13
+      10: "fightNum"
+    }
+    2 {
+      1: "fighftValue"
+      3: 2
+      4: 1
+      5: 13
+      10: "fighftValue"
+    }
+    2 {
+      1: "winNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "winNum"
+    }
+    2 {
+      1: "rewardId"
+      3: 4
+      4: 3
+      5: 13
+      10: "rewardId"
+    }
+    2 {
+      1: "familyRewardId"
+      3: 5
+      4: 3
+      5: 13
+      10: "familyRewardId"
+    }
+    2 {
+      1: "fightType"
+      3: 6
+      4: 1
+      5: 13
+      10: "fightType"
+    }
+  }
+  4 {
+    1: "PBUserSuit"
+    2 {
+      1: "suitId"
+      3: 1
+      4: 1
+      5: 13
+      10: "suitId"
+    }
+    2 {
+      1: "isRead"
+      3: 2
+      4: 1
+      5: 13
+      10: "isRead"
+    }
+    2 {
+      1: "isActive"
+      3: 3
+      4: 1
+      5: 13
+      10: "isActive"
+    }
+  }
+  4 {
+    1: "PBUserSuitHandbookScore"
+    2 {
+      1: "score"
+      3: 1
+      4: 1
+      5: 13
+      10: "score"
+    }
+  }
+  4 {
+    1: "PBUserFirstChargeAct"
+    2 {
+      1: "prestige"
+      3: 1
+      4: 1
+      5: 13
+      10: "prestige"
+    }
+    2 {
+      1: "rewardGet"
+      3: 2
+      4: 3
+      5: 13
+      10: "rewardGet"
+    }
+  }
+  4 {
+    1: "PBUserThroneBattle"
+    2 {
+      1: "score"
+      3: 1
+      4: 1
+      5: 13
+      10: "score"
+    }
+    2 {
+      1: "lastRank"
+      3: 2
+      4: 1
+      5: 13
+      10: "lastRank"
+    }
+    2 {
+      1: "price"
+      3: 3
+      4: 1
+      5: 13
+      10: "price"
+    }
+    2 {
+      1: "isGame"
+      3: 4
+      4: 1
+      5: 13
+      10: "isGame"
+    }
+    2 {
+      1: "guessPrice"
+      3: 5
+      4: 1
+      5: 13
+      10: "guessPrice"
+    }
+  }
+  4 {
+    1: "PBFameHallInfo"
+    2 {
+      1: "userInfoShow"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserInfoShow"
+      10: "userInfoShow"
+    }
+    2 {
+      1: "like"
+      3: 2
+      4: 1
+      5: 13
+      10: "like"
+    }
+    2 {
+      1: "isLike"
+      3: 3
+      4: 1
+      5: 8
+      10: "isLike"
+    }
+  }
+  4 {
+    1: "PBUserTalent"
+    2 {
+      1: "talentId"
+      3: 1
+      4: 1
+      5: 13
+      10: "talentId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 4
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserOceanSaga"
+    2 {
+      1: "pos"
+      3: 1
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "isGetReward"
+      3: 2
+      4: 1
+      5: 13
+      10: "isGetReward"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "score"
+      3: 4
+      4: 1
+      5: 13
+      10: "score"
+    }
+    2 {
+      1: "visitId"
+      3: 5
+      4: 1
+      5: 4
+      10: "visitId"
+    }
+    2 {
+      1: "posId"
+      3: 6
+      4: 1
+      5: 13
+      10: "posId"
+    }
+    2 {
+      1 {
+        13: 0x64497061
+      }
+      3: 7
+      4: 1
+      5: 13
+      10 {
+        13: 0x64497061
+      }
+    }
+    2 {
+      1: "randomEvent"
+      3: 8
+      4: 1
+      5: 9
+      10: "randomEvent"
+    }
+    2 {
+      1: "stopNum"
+      3: 9
+      4: 1
+      5: 9
+      10: "stopNum"
+    }
+    2 {
+      1: "posLevel"
+      3: 10
+      4: 1
+      5: 9
+      10: "posLevel"
+    }
+    2 {
+      1: "magicMirrorUser"
+      3: 11
+      4: 3
+      5: 4
+      10: "magicMirrorUser"
+    }
+    2 {
+      1: "shopItem"
+      3: 12
+      4: 3
+      5: 13
+      10: "shopItem"
+    }
+    2 {
+      1: "buy"
+      3: 13
+      4: 3
+      5: 13
+      10: "buy"
+    }
+    2 {
+      1: "starPoint"
+      3: 14
+      4: 1
+      5: 13
+      10: "starPoint"
+    }
+    2 {
+      1: "eventId"
+      3: 15
+      4: 1
+      5: 13
+      10: "eventId"
+    }
+    2 {
+      1: "dicePoint"
+      3: 16
+      4: 3
+      5: 13
+      10: "dicePoint"
+    }
+    2 {
+      1: "diceDayNum"
+      3: 17
+      4: 1
+      5: 13
+      10: "diceDayNum"
+    }
+    2 {
+      1: "pirateShip"
+      3: 18
+      4: 3
+      5: 13
+      10: "pirateShip"
+    }
+    2 {
+      1: "pirateShipMultiple"
+      3: 19
+      4: 1
+      5: 13
+      10: "pirateShipMultiple"
+    }
+    2 {
+      1: "starPointReward"
+      3: 20
+      4: 3
+      5: 13
+      10: "starPointReward"
+    }
+    2 {
+      1: "autoAdvance"
+      3: 21
+      4: 1
+      5: 9
+      10: "autoAdvance"
+    }
+    2 {
+      1: "randomEventRecord"
+      3: 22
+      4: 1
+      5: 9
+      10: "randomEventRecord"
+    }
+    2 {
+      1: "buildFirstGuide"
+      3: 23
+      4: 3
+      5: 13
+      10: "buildFirstGuide"
+    }
+    2 {
+      1: "isTrials"
+      3: 24
+      4: 1
+      5: 13
+      10: "isTrials"
+    }
+  }
+  4 {
+    1: "PBUserOceanSagaInfo"
+    2 {
+      1: "triggerVisitEvent"
+      3: 1
+      4: 1
+      5: 9
+      10: "triggerVisitEvent"
+    }
+    2 {
+      1: "holdUser"
+      3: 2
+      4: 1
+      5: 9
+      10: "holdUser"
+    }
+    2 {
+      1: "judgePos"
+      3: 3
+      4: 1
+      5: 9
+      10: "judgePos"
+    }
+  }
+  4 {
+    1: "PBUserOceanSagaRecord"
+    2 {
+      1: "visitId"
+      3: 1
+      4: 1
+      5: 4
+      10: "visitId"
+    }
+    2 {
+      1: "pos"
+      3: 2
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "isGetReward"
+      3: 3
+      4: 1
+      5: 13
+      10: "isGetReward"
+    }
+    2 {
+      1 {
+        13: 0x64497061
+      }
+      3: 4
+      4: 1
+      5: 13
+      10 {
+        13: 0x64497061
+      }
+    }
+    2 {
+      1: "swirl"
+      3: 5
+      4: 1
+      5: 13
+      10: "swirl"
+    }
+    2 {
+      1: "isArrest"
+      3: 6
+      4: 1
+      5: 13
+      10: "isArrest"
+    }
+    2 {
+      1: "isCloak"
+      3: 7
+      4: 1
+      5: 13
+      10: "isCloak"
+    }
+    2 {
+      1: "posId"
+      3: 8
+      4: 1
+      5: 13
+      10: "posId"
+    }
+    2 {
+      1: "reward"
+      3: 9
+      4: 1
+      5: 9
+      10: "reward"
+    }
+    2 {
+      1: "randomEvent"
+      3: 10
+      4: 1
+      5: 9
+      10: "randomEvent"
+    }
+    2 {
+      1: "isClose"
+      3: 11
+      4: 1
+      5: 13
+      10: "isClose"
+    }
+    2 {
+      1: "isVisitArrest"
+      3: 12
+      4: 1
+      5: 13
+      10: "isVisitArrest"
+    }
+    2 {
+      1: "userName"
+      3: 13
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "icon"
+      3: 14
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "isBack"
+      3: 15
+      4: 1
+      5: 13
+      10: "isBack"
+    }
+    2 {
+      1: "swirlPos"
+      3: 16
+      4: 1
+      5: 13
+      10: "swirlPos"
+    }
+    2 {
+      1: "soulWeaponLevel"
+      3: 17
+      4: 1
+      5: 13
+      10: "soulWeaponLevel"
+    }
+  }
+  4 {
+    1: "PBOceanUser"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "userName"
+      3: 2
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "icon"
+      3: 4
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "frameId"
+      3: 5
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "loginTime"
+      3: 6
+      4: 1
+      5: 13
+      10: "loginTime"
+    }
+    2 {
+      1: "power"
+      3: 7
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "serverId"
+      3: 8
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "adventureLevel"
+      3: 9
+      4: 1
+      5: 13
+      10: "adventureLevel"
+    }
+  }
+  4 {
+    1: "PBHoldUser"
+    2 {
+      1: "posId"
+      3: 1
+      4: 1
+      5: 13
+      10: "posId"
+    }
+    2 {
+      1: "oceanUser"
+      3: 2
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBOceanUser"
+      10: "oceanUser"
+    }
+  }
+  4 {
+    1: "PBUserOceanSagaPush"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "pos"
+      3: 2
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "isGetReward"
+      3: 3
+      4: 1
+      5: 13
+      10: "isGetReward"
+    }
+    2 {
+      1: "swirl"
+      3: 4
+      4: 1
+      5: 13
+      10: "swirl"
+    }
+    2 {
+      1: "isArrest"
+      3: 5
+      4: 1
+      5: 13
+      10: "isArrest"
+    }
+    2 {
+      1: "isCloak"
+      3: 6
+      4: 1
+      5: 13
+      10: "isCloak"
+    }
+    2 {
+      1: "posId"
+      3: 7
+      4: 1
+      5: 13
+      10: "posId"
+    }
+    2 {
+      1: "randomEvent"
+      3: 8
+      4: 1
+      5: 9
+      10: "randomEvent"
+    }
+    2 {
+      1: "isBomb"
+      3: 11
+      4: 1
+      5: 13
+      10: "isBomb"
+    }
+    2 {
+      1: "isHold"
+      3: 12
+      4: 1
+      5: 13
+      10: "isHold"
+    }
+    2 {
+      1: "isBack"
+      3: 13
+      4: 1
+      5: 13
+      10: "isBack"
+    }
+    2 {
+      1: "userName"
+      3: 14
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "icon"
+      3: 15
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "isJudge"
+      3: 16
+      4: 1
+      5: 13
+      10: "isJudge"
+    }
+    2 {
+      1: "triggerVisitEvent"
+      3: 17
+      4: 1
+      5: 9
+      10: "triggerVisitEvent"
+    }
+    2 {
+      1: "holdUser"
+      3: 18
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBHoldUser"
+      10: "holdUser"
+    }
+    2 {
+      1: "eventSetPosId"
+      3: 19
+      4: 1
+      5: 13
+      10: "eventSetPosId"
+    }
+    2 {
+      1 {
+        13: 0x64497061
+      }
+      3: 20
+      4: 1
+      5: 13
+      10 {
+        13: 0x64497061
+      }
+    }
+    2 {
+      1: "isDirect"
+      3: 21
+      4: 1
+      5: 13
+      10: "isDirect"
+    }
+    2 {
+      1: "frameId"
+      3: 22
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "randomEventType"
+      3: 23
+      4: 1
+      5: 13
+      10: "randomEventType"
+    }
+    2 {
+      1: "soulWeaponLevel"
+      3: 24
+      4: 1
+      5: 13
+      10: "soulWeaponLevel"
+    }
+  }
+  4 {
+    1: "PBUserAresTemple"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "rank"
+      3: 2
+      4: 1
+      5: 13
+      10: "rank"
+    }
+    2 {
+      1: "resetTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "resetTime"
+    }
+    2 {
+      1: "likeType"
+      3: 4
+      4: 3
+      5: 13
+      10: "likeType"
+    }
+    2 {
+      1 {
+        13: 0x79547861
+        14: 101
+      }
+      3: 5
+      4: 1
+      5: 13
+      10 {
+        13: 0x79547861
+        14: 101
+      }
+    }
+    2 {
+      1: "maxRank"
+      3: 6
+      4: 1
+      5: 13
+      10: "maxRank"
+    }
+    2 {
+      1: "typeReward"
+      3: 7
+      4: 3
+      5: 13
+      10: "typeReward"
+    }
+    2 {
+      1: "level"
+      3: 8
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "fightNum"
+      3: 9
+      4: 1
+      5: 13
+      10: "fightNum"
+    }
+    2 {
+      1: "challengeRewardId"
+      3: 10
+      4: 1
+      5: 13
+      10: "challengeRewardId"
+    }
+  }
+  4 {
+    1: "PBUserAresTempleRecord"
+    2 {
+      1: "enemyId"
+      3: 1
+      4: 1
+      5: 4
+      10: "enemyId"
+    }
+    2 {
+      1: "name"
+      3: 2
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "icon"
+      3: 4
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "frameId"
+      3: 5
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "isWin"
+      3: 6
+      4: 1
+      5: 13
+      10: "isWin"
+    }
+    2 {
+      1: "changeRank"
+      3: 7
+      4: 1
+      5: 5
+      10: "changeRank"
+    }
+    2 {
+      1: "videoId"
+      3: 8
+      4: 1
+      5: 4
+      10: "videoId"
+    }
+    2 {
+      1: "addTime"
+      3: 9
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+    2 {
+      1: "defend"
+      3: 10
+      4: 1
+      5: 13
+      10: "defend"
+    }
+    2 {
+      1: "serverId"
+      3: 11
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "strVideoId"
+      3: 12
+      4: 1
+      5: 9
+      10: "strVideoId"
+    }
+    2 {
+      1: "isRobot"
+      3: 100
+      4: 1
+      5: 8
+      10: "isRobot"
+    }
+  }
+  4 {
+    1: "PBUserWorldBoss"
+    2 {
+      1: "harm"
+      3: 1
+      4: 1
+      5: 4
+      10: "harm"
+    }
+    2 {
+      1: "fightNum"
+      3: 2
+      4: 1
+      5: 13
+      10: "fightNum"
+    }
+    2 {
+      1: "globalReward"
+      3: 3
+      4: 3
+      5: 13
+      10: "globalReward"
+    }
+    2 {
+      1: "unlockId"
+      3: 4
+      4: 1
+      5: 13
+      10: "unlockId"
+    }
+    2 {
+      1: "isFight"
+      3: 5
+      4: 1
+      5: 13
+      10: "isFight"
+    }
+  }
+  4 {
+    1: "PBWorldBossTime"
+    2 {
+      1: "groupId"
+      3: 1
+      4: 1
+      5: 13
+      10: "groupId"
+    }
+    2 {
+      1: "startTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "startTime"
+    }
+    2 {
+      1: "endTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+  }
+  4 {
+    1: "PBWorldBoss"
+    2 {
+      1: "groupId"
+      3: 1
+      4: 1
+      5: 13
+      10: "groupId"
+    }
+    2 {
+      1: "worldBossTime"
+      3: 2
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBWorldBossTime"
+      10: "worldBossTime"
+    }
+  }
+  4 {
+    1: "PBFamilyMatchUserShow"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "userName"
+      3: 2
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "icon"
+      3: 4
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "frameId"
+      3: 5
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "power"
+      3: 8
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "isUnActive"
+      3: 9
+      4: 1
+      5: 8
+      10: "isUnActive"
+    }
+    2 {
+      1: "soulWeaponLevel"
+      3: 10
+      4: 1
+      5: 13
+      10: "soulWeaponLevel"
+    }
+  }
+  4 {
+    1: "PBUserFish"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "fishId"
+      3: 2
+      4: 1
+      5: 13
+      10: "fishId"
+    }
+    2 {
+      1: "lengthRatio"
+      3: 3
+      4: 1
+      5: 13
+      10: "lengthRatio"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      10: 0x46726573
+      13: 0x7265747465466873
+    }
+    2 {
+      1: "unlockIds"
+      3: 1
+      4: 3
+      5: 13
+      10: "unlockIds"
+    }
+    2 {
+      1: "levels"
+      3: 9
+      4: 3
+      5: 13
+      10: "levels"
+    }
+  }
+  4 {
+    1: "PBUserFishFetterLevel"
+    2 {
+      1: "fetterId"
+      3: 1
+      4: 1
+      5: 13
+      10: "fetterId"
+    }
+    2 {
+      1: "level"
+      3: 2
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "exp"
+      3: 3
+      4: 1
+      5: 13
+      10: "exp"
+    }
+    2 {
+      1: "embedItems"
+      3: 4
+      4: 3
+      5: 13
+      10: "embedItems"
+    }
+  }
+  4 {
+    1: "PBUserFishTask"
+    2 {
+      1: "taskId"
+      3: 1
+      4: 1
+      5: 13
+      10: "taskId"
+    }
+    2 {
+      1: "value1"
+      3: 2
+      4: 1
+      5: 13
+      10: "value1"
+    }
+    2 {
+      1: "value2"
+      3: 3
+      4: 1
+      5: 13
+      10: "value2"
+    }
+  }
+  4 {
+    1: "PBUserFishBait"
+    2 {
+      1: "baitId"
+      3: 1
+      4: 1
+      5: 13
+      10: "baitId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserFishItem"
+    2 {
+      1: "fishId"
+      3: 1
+      4: 1
+      5: 13
+      10: "fishId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 4
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserFishItemBuyback"
+    2 {
+      1: "fishId"
+      3: 1
+      4: 1
+      5: 13
+      10: "fishId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBFishOpenInfo"
+    2 {
+      1: "state"
+      3: 1
+      4: 1
+      5: 13
+      10: "state"
+    }
+    2 {
+      1: "nextStateTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "nextStateTime"
+    }
+    2 {
+      1: "actId"
+      3: 3
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "subActId"
+      3: 4
+      4: 1
+      5: 13
+      10: "subActId"
+    }
+  }
+  4 {
+    1: "PBUserVestige"
+    2 {
+      1: "fightNum"
+      3: 1
+      4: 1
+      5: 13
+      10: "fightNum"
+    }
+    2 {
+      1: "resetNum"
+      3: 2
+      4: 1
+      5: 13
+      10: "resetNum"
+    }
+    2 {
+      1: "reduceNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "reduceNum"
+    }
+    2 {
+      1: "stageLevel"
+      3: 4
+      4: 1
+      5: 13
+      10: "stageLevel"
+    }
+    2 {
+      1: "stageId"
+      3: 5
+      4: 1
+      5: 13
+      10: "stageId"
+    }
+    2 {
+      1: "boxId"
+      3: 6
+      4: 3
+      5: 13
+      10: "boxId"
+    }
+    2 {
+      1: "boxStage"
+      3: 7
+      4: 3
+      5: 13
+      10: "boxStage"
+    }
+    2 {
+      1: "boxState"
+      3: 8
+      4: 3
+      5: 13
+      10: "boxState"
+    }
+    2 {
+      1: "isReward"
+      3: 9
+      4: 1
+      5: 13
+      10: "isReward"
+    }
+    2 {
+      1: "passPower"
+      3: 10
+      4: 1
+      5: 4
+      10: "passPower"
+    }
+    2 {
+      1 {
+        12: 0x6449657665696863
+      }
+      3: 11
+      4: 1
+      5: 13
+      10 {
+        12: 0x6449657665696863
+      }
+    }
+    2 {
+      1: "lastStageId"
+      3: 12
+      4: 1
+      5: 13
+      10: "lastStageId"
+    }
+    2 {
+      1: "exchangeFightNum"
+      3: 13
+      4: 1
+      5: 13
+      10: "exchangeFightNum"
+    }
+    2 {
+      1: "createStagePower"
+      3: 14
+      4: 1
+      5: 4
+      10: "createStagePower"
+    }
+    2 {
+      1: "isSkip"
+      3: 15
+      4: 1
+      5: 8
+      10: "isSkip"
+    }
+  }
+  4 {
+    1: "PBUserVestigeStage"
+    2 {
+      1: "stageId"
+      3: 1
+      4: 1
+      5: 13
+      10: "stageId"
+    }
+    2 {
+      1: "isReduce"
+      3: 2
+      4: 1
+      5: 13
+      10: "isReduce"
+    }
+    2 {
+      1 {
+        13: 112
+      }
+      3: 3
+      4: 3
+      5: 4
+      10 {
+        13: 112
+      }
+    }
+    2 {
+      1: "state"
+      3: 4
+      4: 1
+      5: 13
+      10: "state"
+    }
+    2 {
+      1: "name"
+      3: 5
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "power"
+      3: 6
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "icon"
+      3: 7
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "level"
+      3: 8
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "hpInit"
+      3: 9
+      4: 3
+      5: 4
+      10: "hpInit"
+    }
+    2 {
+      1: "isRobot"
+      3: 10
+      4: 1
+      5: 13
+      10: "isRobot"
+    }
+    2 {
+      1: "realPower"
+      3: 11
+      4: 1
+      5: 4
+      10: "realPower"
+    }
+  }
+  4 {
+    1: "PBUserAccount"
+    2 {
+      1: "isNoticeComment"
+      3: 1
+      4: 1
+      5: 13
+      10: "isNoticeComment"
+    }
+    2 {
+      1: "isCustomer"
+      3: 2
+      4: 1
+      5: 13
+      10: "isCustomer"
+    }
+  }
+  4 {
+    1: "PBUserScroll"
+    2 {
+      1: "scrollId"
+      3: 1
+      4: 1
+      5: 13
+      10: "scrollId"
+    }
+    2 {
+      1: "level"
+      3: 2
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "baseScrollId"
+      3: 3
+      4: 1
+      5: 13
+      10: "baseScrollId"
+    }
+    2 {
+      1: "score"
+      3: 4
+      4: 1
+      5: 13
+      10: "score"
+    }
+  }
+  4 {
+    1: "PBUserScrollShard"
+    2 {
+      1: "shardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "shardId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserSymbol"
+    2 {
+      1: "symbolId"
+      3: 1
+      4: 1
+      5: 13
+      10: "symbolId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 4
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserAncientStela"
+    2 {
+      1: "gatherNum"
+      3: 1
+      4: 1
+      5: 13
+      10: "gatherNum"
+    }
+    2 {
+      1: "gatherActive"
+      3: 2
+      4: 3
+      5: 13
+      10: "gatherActive"
+    }
+  }
+  4 {
+    1: "PBUserAncientStelaGroup"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1 {
+        14 {
+        }
+        12: 0x6449616c
+      }
+      3: 2
+      4: 1
+      5: 13
+      10 {
+        14 {
+        }
+        12: 0x6449616c
+      }
+    }
+    2 {
+      1 {
+        13: 0x746e756f
+      }
+      3: 3
+      4: 3
+      5: 13
+      10 {
+        13: 0x746e756f
+      }
+    }
+    2 {
+      1: "stelaLevel"
+      3: 4
+      4: 1
+      5: 13
+      10: "stelaLevel"
+    }
+    2 {
+      1: "coreStela"
+      3: 5
+      4: 3
+      5: 13
+      10: "coreStela"
+    }
+    2 {
+      1: "stelaExp"
+      3: 6
+      4: 1
+      5: 13
+      10: "stelaExp"
+    }
+  }
+  4 {
+    1: "PBUserHolyWeapon"
+    2 {
+      1: "holyWeaponId"
+      3: 1
+      4: 1
+      5: 13
+      10: "holyWeaponId"
+    }
+    2 {
+      1: "star"
+      3: 2
+      4: 1
+      5: 13
+      10: "star"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "soulHolyWeaponId"
+      3: 4
+      4: 1
+      5: 13
+      10: "soulHolyWeaponId"
+    }
+    2 {
+      1: "userId"
+      3: 5
+      4: 1
+      5: 4
+      10: "userId"
+    }
+  }
+  4 {
+    1: "PBUserHolyWeaponData"
+    2 {
+      1: "userHolyWeapon"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserHolyWeapon"
+      10: "userHolyWeapon"
+    }
+    2 {
+      1: "soulHolyWeaponStar"
+      3: 2
+      4: 1
+      5: 13
+      10: "soulHolyWeaponStar"
+    }
+  }
+  4 {
+    1: "PBUserHolyWeaponShard"
+    2 {
+      1: "holyWeaponShardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "holyWeaponShardId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserHolyWeaponSkill"
+    2 {
+      1: "resonanceId"
+      3: 1
+      4: 1
+      5: 13
+      10: "resonanceId"
+    }
+    2 {
+      1: "level"
+      3: 2
+      4: 1
+      5: 13
+      10: "level"
+    }
+  }
+  4 {
+    1: "PBUserHolyWeaponInfo"
+    2 {
+      1: "resonanceLevel"
+      3: 1
+      4: 1
+      5: 13
+      10: "resonanceLevel"
+    }
+    2 {
+      1: "freeCount"
+      3: 2
+      4: 1
+      5: 13
+      10: "freeCount"
+    }
+    2 {
+      1: "point"
+      3: 3
+      4: 1
+      5: 13
+      10: "point"
+    }
+    2 {
+      1: "boxInfo"
+      3: 4
+      4: 3
+      5: 13
+      10: "boxInfo"
+    }
+    2 {
+      1: "drawNum"
+      3: 5
+      4: 1
+      5: 13
+      10: "drawNum"
+    }
+    2 {
+      1: "wish"
+      3: 6
+      4: 1
+      5: 13
+      10: "wish"
+    }
+    2 {
+      1: "resonanceExp"
+      3: 7
+      4: 1
+      5: 13
+      10: "resonanceExp"
+    }
+    2 {
+      1: "nextTime"
+      3: 8
+      4: 1
+      5: 13
+      10: "nextTime"
+    }
+    2 {
+      1: "isExpireNotice"
+      3: 9
+      4: 1
+      5: 8
+      10: "isExpireNotice"
+    }
+    2 {
+      1: "soulPoint"
+      3: 10
+      4: 1
+      5: 4
+      10: "soulPoint"
+    }
+  }
+  4 {
+    1: "PBUserHolyWeaponTask"
+    2 {
+      1: "holyWeaponId"
+      3: 1
+      4: 1
+      5: 13
+      10: "holyWeaponId"
+    }
+    2 {
+      1: "type"
+      3: 2
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "num"
+      3: 3
+      4: 1
+      5: 4
+      10: "num"
+    }
+    2 {
+      1: "level"
+      3: 4
+      4: 1
+      5: 13
+      10: "level"
+    }
+  }
+  4 {
+    1: "PBUserCutGrassStage"
+    2 {
+      1: "chapterId"
+      3: 1
+      4: 1
+      5: 13
+      10: "chapterId"
+    }
+    2 {
+      1: "stageId"
+      3: 2
+      4: 1
+      5: 13
+      10: "stageId"
+    }
+    2 {
+      1: "continueTime"
+      3: 3
+      4: 1
+      5: 5
+      10: "continueTime"
+    }
+  }
+  4 {
+    1: "PBUserCutGrassAchieve"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 4
+      10: "num"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+  }
+  4 {
+    1: "PBUserCutGrassFightGift"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "isRecharge"
+      3: 2
+      4: 1
+      5: 8
+      10: "isRecharge"
+    }
+    2 {
+      1: "endTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "exp"
+      3: 4
+      4: 1
+      5: 13
+      10: "exp"
+    }
+    2 {
+      1: "normalRewardLevels"
+      3: 5
+      4: 3
+      5: 13
+      10: "normalRewardLevels"
+    }
+    2 {
+      1: "highRewardLevels"
+      3: 6
+      4: 3
+      5: 13
+      10: "highRewardLevels"
+    }
+  }
+  4 {
+    1: "PBUserCutGrassEnergy"
+    2 {
+      1: "energy"
+      3: 1
+      4: 1
+      5: 13
+      10: "energy"
+    }
+    2 {
+      1: "buyEnergyNum"
+      3: 2
+      4: 1
+      5: 13
+      10: "buyEnergyNum"
+    }
+    2 {
+      1: "energyTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "energyTime"
+    }
+  }
+  4 {
+    1: "PBUserLevelDiamondGift"
+    2 {
+      1: "level"
+      3: 1
+      4: 3
+      5: 13
+      10: "level"
+    }
+  }
+  4 {
+    1: "PBUserMine"
+    2 {
+      1: "rankGroupId"
+      3: 1
+      4: 1
+      5: 13
+      10: "rankGroupId"
+    }
+    2 {
+      1: "layer"
+      3: 2
+      4: 1
+      5: 13
+      10: "layer"
+    }
+    2 {
+      1: "layerNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "layerNum"
+    }
+    2 {
+      1: "layerWeekNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "layerWeekNum"
+    }
+    2 {
+      1: "layerReward"
+      3: 5
+      4: 3
+      5: 13
+      10: "layerReward"
+    }
+    2 {
+      1: "taskReward"
+      3: 6
+      4: 3
+      5: 13
+      10: "taskReward"
+    }
+    2 {
+      1: "taskGroupId"
+      3: 7
+      4: 1
+      5: 13
+      10: "taskGroupId"
+    }
+  }
+  4 {
+    1: "PBUserVestigeAchieve"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "level"
+      3: 2
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "num"
+      3: 3
+      4: 1
+      5: 4
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserVestigeDayTask"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+    2 {
+      1: "isReward"
+      3: 3
+      4: 1
+      5: 8
+      10: "isReward"
+    }
+  }
+  4 {
+    1: "PBUserDiamondTrialsBoss"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "level"
+      3: 2
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "num"
+      3: 3
+      4: 1
+      5: 13
+      10: "num"
+    }
+    2 {
+      1: "bossIndex"
+      3: 4
+      4: 1
+      5: 13
+      10: "bossIndex"
+    }
+    2 {
+      1: "rankList"
+      3: 5
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBRankInfo"
+      10: "rankList"
+    }
+    2 {
+      1: "myRank"
+      3: 6
+      4: 1
+      5: 13
+      10: "myRank"
+    }
+    2 {
+      1: "myScore"
+      3: 7
+      4: 1
+      5: 4
+      10: "myScore"
+    }
+    2 {
+      1: "buffIndex"
+      3: 8
+      4: 1
+      5: 13
+      10: "buffIndex"
+    }
+    2 {
+      1: "buffLevel"
+      3: 9
+      4: 1
+      5: 13
+      10: "buffLevel"
+    }
+    2 {
+      1: "baseValue"
+      3: 10
+      4: 1
+      5: 4
+      10: "baseValue"
+    }
+    2 {
+      1: "levelId"
+      3: 11
+      4: 1
+      5: 13
+      10: "levelId"
+    }
+  }
+  4 {
+    1: "PBUserDiamondTrials"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "level"
+      3: 2
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "stageId"
+      3: 3
+      4: 1
+      5: 13
+      10: "stageId"
+    }
+    2 {
+      1: "boxState"
+      3: 4
+      4: 3
+      5: 13
+      10: "boxState"
+    }
+    2 {
+      1: "monsterId"
+      3: 5
+      4: 3
+      5: 13
+      10: "monsterId"
+    }
+    2 {
+      1: "playerCardId"
+      3: 6
+      4: 3
+      5: 4
+      10: "playerCardId"
+    }
+    2 {
+      1: "buffIndex"
+      3: 7
+      4: 1
+      5: 13
+      10: "buffIndex"
+    }
+    2 {
+      1: "monsterHp"
+      3: 8
+      4: 3
+      5: 1
+      10: "monsterHp"
+    }
+    2 {
+      1: "playerCardHp"
+      3: 9
+      4: 3
+      5: 1
+      10: "playerCardHp"
+    }
+    2 {
+      1: "buffLevel"
+      3: 10
+      4: 1
+      5: 13
+      10: "buffLevel"
+    }
+    2 {
+      1: "maxLevel"
+      3: 11
+      4: 1
+      5: 13
+      10: "maxLevel"
+    }
+  }
+  4 {
+    1: "PBDiamondTrials"
+    2 {
+      1: "state"
+      3: 1
+      4: 1
+      5: 13
+      10: "state"
+    }
+    2 {
+      1: "nextStateTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "nextStateTime"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "type"
+      3: 4
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "bossIndex"
+      3: 5
+      4: 1
+      5: 13
+      10: "bossIndex"
+    }
+  }
+  4 {
+    1: "PBDiamondTrialsInitData"
+    2 {
+      1: "isCommonPass"
+      3: 1
+      4: 1
+      5: 13
+      10: "isCommonPass"
+    }
+    2 {
+      1: "bossFightTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "bossFightTime"
+    }
+    2 {
+      1: "bossType"
+      3: 3
+      4: 1
+      5: 13
+      10: "bossType"
+    }
+  }
+  4 {
+    1: "PBUserDiamondTrialsAchieve"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 4
+      10: "num"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+  }
+  4 {
+    1: "PBUserVestigeFight"
+    2 {
+      1: "exp"
+      3: 1
+      4: 1
+      5: 13
+      10: "exp"
+    }
+    2 {
+      1: "isRecharge"
+      3: 2
+      4: 1
+      5: 8
+      10: "isRecharge"
+    }
+    2 {
+      1: "normalRewardLevel"
+      3: 3
+      4: 1
+      5: 13
+      10: "normalRewardLevel"
+    }
+    2 {
+      1: "highRewardLevel"
+      3: 4
+      4: 1
+      5: 13
+      10: "highRewardLevel"
+    }
+    2 {
+      1: "type"
+      3: 5
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "endTime"
+      3: 6
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+  }
+  4 {
+    1: "PBUserProverbsRelation"
+    2 {
+      1: "level"
+      3: 1
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "score"
+      3: 2
+      4: 1
+      5: 13
+      10: "score"
+    }
+  }
+  4 {
+    1: "PBUserProverbs"
+    2 {
+      1: "proverbsId"
+      3: 1
+      4: 1
+      5: 13
+      10: "proverbsId"
+    }
+    2 {
+      1: "star"
+      3: 2
+      4: 1
+      5: 13
+      10: "star"
+    }
+    2 {
+      1: "effectNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "effectNum"
+    }
+    2 {
+      1: "accumulativeValue"
+      3: 4
+      4: 1
+      5: 13
+      10: "accumulativeValue"
+    }
+    2 {
+      1: "score"
+      3: 5
+      4: 1
+      5: 13
+      10: "score"
+    }
+  }
+  4 {
+    1: "PBUserProverbsShard"
+    2 {
+      1: "proverbsShardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "proverbsShardId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserTrain"
+    2 {
+      1: "rewardType"
+      3: 1
+      4: 1
+      5: 13
+      10: "rewardType"
+    }
+    2 {
+      1: "startTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "startTime"
+    }
+    2 {
+      1: "refreshNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "refreshNum"
+    }
+    2 {
+      1: "lucky"
+      3: 20
+      4: 1
+      5: 13
+      10: "lucky"
+    }
+    2 {
+      1: "boxPos"
+      3: 21
+      4: 3
+      5: 13
+      10: "boxPos"
+    }
+    2 {
+      1: "round"
+      3: 22
+      4: 1
+      5: 13
+      10: "round"
+    }
+    2 {
+      1: "luckyLevel"
+      3: 23
+      4: 1
+      5: 13
+      10: "luckyLevel"
+    }
+  }
+  4 {
+    1: "PBUserTrainCampRoom"
+    2 {
+      1: "levelId"
+      3: 1
+      4: 1
+      5: 13
+      10: "levelId"
+    }
+    2 {
+      1: "campId"
+      3: 2
+      4: 1
+      5: 13
+      10: "campId"
+    }
+    2 {
+      1: "roomId"
+      3: 3
+      4: 1
+      5: 13
+      10: "roomId"
+    }
+    2 {
+      1: "roomSeat"
+      3: 4
+      4: 1
+      5: 13
+      10: "roomSeat"
+    }
+    2 {
+      1: "roomStartTime"
+      3: 5
+      4: 1
+      5: 13
+      10: "roomStartTime"
+    }
+    2 {
+      1: "selectCampNum"
+      3: 6
+      4: 1
+      5: 13
+      10: "selectCampNum"
+    }
+  }
+  4 {
+    1: "PBUserTrainLootRecord"
+    2 {
+      1: "lootItem"
+      3: 1
+      4: 3
+      5: 4
+      10: "lootItem"
+    }
+    2 {
+      1: "addTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+    2 {
+      1: "enemyInfo"
+      3: 3
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserInfoShow"
+      10: "enemyInfo"
+    }
+    2 {
+      1: "videoId"
+      3: 4
+      4: 1
+      5: 4
+      10: "videoId"
+    }
+    2 {
+      1: "isWin"
+      3: 5
+      4: 1
+      5: 8
+      10: "isWin"
+    }
+    2 {
+      1: "strVideoId"
+      3: 6
+      4: 1
+      5: 9
+      10: "strVideoId"
+    }
+  }
+  4 {
+    1: "PBTrainDrawRecord"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "type"
+      3: 2
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "name"
+      3: 3
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "itemId"
+      3: 4
+      4: 1
+      5: 13
+      10: "itemId"
+    }
+    2 {
+      1: "num"
+      3: 5
+      4: 1
+      5: 13
+      10: "num"
+    }
+    2 {
+      1: "addTime"
+      3: 6
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+  }
+  4 {
+    1: "PBUserFestivalDispatch"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "subActId"
+      3: 2
+      4: 1
+      5: 13
+      10: "subActId"
+    }
+    2 {
+      1: "hungTime"
+      3: 3
+      4: 3
+      5: 13
+      10: "hungTime"
+    }
+    2 {
+      1: "dispatchId"
+      3: 4
+      4: 3
+      5: 4
+      10: "dispatchId"
+    }
+    2 {
+      1: "startTime"
+      3: 5
+      4: 1
+      5: 13
+      10: "startTime"
+    }
+    2 {
+      1: "income"
+      3: 6
+      4: 1
+      5: 4
+      10: "income"
+    }
+    2 {
+      1: "hungStartTime"
+      3: 7
+      4: 1
+      5: 13
+      10: "hungStartTime"
+    }
+  }
+  4 {
+    1: "PBFestivalRedPacketRecord"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "actId"
+      3: 2
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "subActId"
+      3: 3
+      4: 1
+      5: 13
+      10: "subActId"
+    }
+    2 {
+      1: "addTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+    2 {
+      1: "type"
+      3: 5
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "userId"
+      3: 6
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "name"
+      3: 7
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "icon"
+      3: 8
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "frameId"
+      3: 9
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "sendWay"
+      3: 10
+      4: 1
+      5: 13
+      10: "sendWay"
+    }
+    2 {
+      1: "honorId"
+      3: 11
+      4: 1
+      5: 13
+      10: "honorId"
+    }
+    2 {
+      1: "serverId"
+      3: 12
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "level"
+      3: 13
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "power"
+      3: 14
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "desId"
+      3: 15
+      4: 1
+      5: 13
+      10: "desId"
+    }
+  }
+  4 {
+    1: "PBUserFestivalRedPacket"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "subActId"
+      3: 2
+      4: 1
+      5: 13
+      10: "subActId"
+    }
+    2 {
+      1: "score"
+      3: 3
+      4: 1
+      5: 13
+      10: "score"
+    }
+    2 {
+      1: "redPacketId"
+      3: 4
+      4: 3
+      5: 4
+      10: "redPacketId"
+    }
+    2 {
+      1: "num"
+      3: 5
+      4: 1
+      5: 13
+      10: "num"
+    }
+    2 {
+      1: "betNum"
+      3: 6
+      4: 1
+      5: 13
+      10: "betNum"
+    }
+    2 {
+      1: "betUseNum"
+      3: 7
+      4: 1
+      5: 13
+      10: "betUseNum"
+    }
+  }
+  4 {
+    1: "PBServerGroupInfo"
+    2 {
+      1: "serverId"
+      3: 1
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "firstUserId"
+      3: 2
+      4: 1
+      5: 4
+      10: "firstUserId"
+    }
+    2 {
+      1: "firstUserName"
+      3: 3
+      4: 1
+      5: 9
+      10: "firstUserName"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      10: 0x4e726573
+      12: 0x6e6f697461676976
+    }
+    2 {
+      1: "userNavigationDifficulty"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserNavigationDifficulty"
+      10: "userNavigationDifficulty"
+    }
+    2 {
+      1: "userNavigationStageList"
+      3: 2
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserNavigationStage"
+      10: "userNavigationStageList"
+    }
+  }
+  4 {
+    1: "PBUserNavigationDifficulty"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "difficulty"
+      3: 2
+      4: 1
+      5: 13
+      10: "difficulty"
+    }
+    2 {
+      1: "maxStage"
+      3: 3
+      4: 1
+      5: 13
+      10: "maxStage"
+    }
+    2 {
+      1: "totalStar"
+      3: 4
+      4: 1
+      5: 13
+      10: "totalStar"
+    }
+    2 {
+      1: "isPass"
+      3: 5
+      4: 1
+      5: 13
+      10: "isPass"
+    }
+    2 {
+      1: "rewardGet"
+      3: 7
+      4: 3
+      5: 13
+      10: "rewardGet"
+    }
+    2 {
+      1: "availableReward"
+      3: 8
+      4: 1
+      5: 8
+      10: "availableReward"
+    }
+  }
+  4 {
+    1: "PBUserNavigationStage"
+    2 {
+      1: "stageId"
+      3: 1
+      4: 1
+      5: 13
+      10: "stageId"
+    }
+    2 {
+      1: "detail"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserNavigationStageDetail"
+      10: "detail"
+    }
+  }
+  4 {
+    1: "PBUserNavigationStageDetail"
+    2 {
+      1: "starNum"
+      3: 1
+      4: 1
+      5: 13
+      10: "starNum"
+    }
+    2 {
+      1: "taskComplete"
+      3: 2
+      4: 3
+      5: 13
+      10: "taskComplete"
+    }
+    2 {
+      1: "rewardGet"
+      3: 3
+      4: 3
+      5: 13
+      10: "rewardGet"
+    }
+  }
+  4 {
+    1: "PBUserCaveExploration"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "actId"
+      3: 2
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "subActId"
+      3: 3
+      4: 1
+      5: 13
+      10: "subActId"
+    }
+    2 {
+      1: "todaySweepNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "todaySweepNum"
+    }
+    2 {
+      1: "todayFailNum"
+      3: 5
+      4: 1
+      5: 13
+      10: "todayFailNum"
+    }
+  }
+  4 {
+    1: "PBUserCaveExplorationStage"
+    2 {
+      1: "stageId"
+      3: 1
+      4: 1
+      5: 13
+      10: "stageId"
+    }
+    2 {
+      1: "starNum"
+      3: 2
+      4: 1
+      5: 13
+      10: "starNum"
+    }
+    2 {
+      1: "taskComplete"
+      3: 3
+      4: 3
+      5: 13
+      10: "taskComplete"
+    }
+    2 {
+      1: "reward"
+      3: 4
+      4: 1
+      5: 8
+      10: "reward"
+    }
+  }
+  4 {
+    1: "PBUserAssistant"
+    2 {
+      1: "finishId"
+      3: 1
+      4: 3
+      5: 13
+      10: "finishId"
+    }
+  }
+  4 {
+    1: "PBUserAssistantRecord"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "classify"
+      3: 2
+      4: 1
+      5: 13
+      10: "classify"
+    }
+    2 {
+      1: "assistantId"
+      3: 3
+      4: 1
+      5: 13
+      10: "assistantId"
+    }
+    2 {
+      1: "execTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "execTime"
+    }
+    2 {
+      1: "reward"
+      3: 5
+      4: 3
+      5: 13
+      10: "reward"
+    }
+    2 {
+      1: "errorType"
+      3: 6
+      4: 1
+      5: 13
+      10: "errorType"
+    }
+    2 {
+      1: "marketId"
+      3: 7
+      4: 1
+      5: 13
+      10: "marketId"
+    }
+    2 {
+      1: "marketNum"
+      3: 8
+      4: 1
+      5: 13
+      10: "marketNum"
+    }
+    2 {
+      1: "oceanSubType"
+      3: 9
+      4: 1
+      5: 13
+      10: "oceanSubType"
+    }
+  }
+  4 {
+    1: "PBAwakenedCountry"
+    2 {
+      1: "typeId"
+      3: 1
+      4: 1
+      5: 13
+      10: "typeId"
+    }
+    2 {
+      1: "awakenedLevel"
+      3: 2
+      4: 1
+      5: 13
+      10: "awakenedLevel"
+    }
+    2 {
+      1: "attr"
+      3: 3
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBAttr"
+      10: "attr"
+    }
+    2 {
+      1: "isMaxLevel"
+      3: 4
+      4: 1
+      5: 8
+      10: "isMaxLevel"
+    }
+  }
+  4 {
+    1: "PBAwakenedCountryExtra"
+    2 {
+      1: "extraId"
+      3: 1
+      4: 1
+      5: 13
+      10: "extraId"
+    }
+    2 {
+      1: "status"
+      3: 2
+      4: 1
+      5: 13
+      10: "status"
+    }
+  }
+  4 {
+    1: "PBAwakenedSkill"
+    2 {
+      1: "cardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "cardId"
+    }
+    2 {
+      1: "skillId"
+      3: 2
+      4: 1
+      5: 13
+      10: "skillId"
+    }
+    2 {
+      1: "percent"
+      3: 3
+      4: 1
+      5: 13
+      10: "percent"
+    }
+  }
+  4 {
+    1: "PBAwakenedInfo"
+    2 {
+      1: "formation"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBAwakenedFormation"
+      10: "formation"
+    }
+    2 {
+      1: "skill"
+      3: 2
+      4: 1
+      5: 9
+      10: "skill"
+    }
+    2 {
+      1: "awakenedCountry"
+      3: 3
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBAwakenedCountry"
+      10: "awakenedCountry"
+    }
+    2 {
+      1: "honorlevel"
+      3: 4
+      4: 1
+      5: 13
+      10: "honorlevel"
+    }
+    2 {
+      1: "fightType"
+      3: 5
+      4: 1
+      5: 13
+      10: "fightType"
+    }
+    2 {
+      1: "skillStore"
+      3: 6
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBAwakenedSkill"
+      10: "skillStore"
+    }
+    2 {
+      1: "talents"
+      3: 7
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserAwakenedTalent"
+      10: "talents"
+    }
+  }
+  4 {
+    1: "PBAwakenedFormation"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "pos"
+      3: 2
+      4: 3
+      5: 13
+      10: "pos"
+    }
+  }
+  4 {
+    1: "PBUserAwakenedTalent"
+    2 {
+      1: "talentId"
+      3: 1
+      4: 1
+      5: 13
+      10: "talentId"
+    }
+    2 {
+      1: "level"
+      3: 2
+      4: 1
+      5: 13
+      10: "level"
+    }
+  }
+  4 {
+    1: "PBUserBindItem"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "itemId"
+      3: 2
+      4: 1
+      5: 13
+      10: "itemId"
+    }
+    2 {
+      1: "endTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "isExchange"
+      3: 4
+      4: 1
+      5: 13
+      10: "isExchange"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      9: 0x64726f6365527061
+    }
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "iapId"
+      3: 2
+      4: 1
+      5: 13
+      10: "iapId"
+    }
+    2 {
+      1 {
+        13: 0x6449746669477061
+      }
+      3: 3
+      4: 1
+      5: 13
+      10 {
+        13: 0x6449746669477061
+      }
+    }
+    2 {
+      1: "addTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+  }
+  4 {
+    1: "PBTrainTimeData"
+    2 {
+      1: "nextStartTime"
+      3: 1
+      4: 1
+      5: 13
+      10: "nextStartTime"
+    }
+    2 {
+      1: "nextEndTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "nextEndTime"
+    }
+  }
+  4 {
+    1: "PBAresTempleGroupData"
+    2 {
+      1: "startTime"
+      3: 1
+      4: 1
+      5: 13
+      10: "startTime"
+    }
+    2 {
+      1: "endTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "rank"
+      3: 3
+      4: 1
+      5: 13
+      10: "rank"
+    }
+    2 {
+      1: "isInsideOpen"
+      3: 4
+      4: 1
+      5: 8
+      10: "isInsideOpen"
+    }
+    2 {
+      1: "insideRank"
+      3: 5
+      4: 1
+      5: 13
+      10: "insideRank"
+    }
+    2 {
+      1: "followNum"
+      3: 6
+      4: 1
+      5: 13
+      10: "followNum"
+    }
+    2 {
+      1: "followType"
+      3: 7
+      4: 1
+      5: 13
+      10: "followType"
+    }
+    2 {
+      1: "followStartTime"
+      3: 8
+      4: 1
+      5: 13
+      10: "followStartTime"
+    }
+    2 {
+      1: "isApply"
+      3: 9
+      4: 1
+      5: 8
+      10: "isApply"
+    }
+  }
+  4 {
+    1: "PBUserFestivalFish"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "subActId"
+      3: 2
+      4: 1
+      5: 13
+      10: "subActId"
+    }
+    2 {
+      1: "score"
+      3: 3
+      4: 1
+      5: 13
+      10: "score"
+    }
+  }
+  4 {
+    1: "PBUserDrawHistoryRecord"
+    2 {
+      1: "costItemId"
+      3: 1
+      4: 1
+      5: 13
+      10: "costItemId"
+    }
+    2 {
+      1: "costItemNum"
+      3: 2
+      4: 1
+      5: 4
+      10: "costItemNum"
+    }
+    2 {
+      1: "reward"
+      3: 3
+      4: 3
+      5: 4
+      10: "reward"
+    }
+    2 {
+      1: "addTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+  }
+  4 {
+    1: "PBUserPhotoCollect"
+    2 {
+      1: "photoId"
+      3: 1
+      4: 1
+      5: 13
+      10: "photoId"
+    }
+    2 {
+      1: "isReward"
+      3: 8
+      4: 1
+      5: 8
+      10: "isReward"
+    }
+    2 {
+      1: "collectPosList"
+      3: 9
+      4: 3
+      5: 13
+      10: "collectPosList"
+    }
+  }
+  4 {
+    1: "PBUserPlunderPush"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "subActId"
+      3: 2
+      4: 1
+      5: 13
+      10: "subActId"
+    }
+    2 {
+      1: "serverId"
+      3: 3
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "userName"
+      3: 4
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "itemId"
+      3: 5
+      4: 1
+      5: 13
+      10: "itemId"
+    }
+    2 {
+      1: "itemNum"
+      3: 6
+      4: 1
+      5: 13
+      10: "itemNum"
+    }
+    2 {
+      1 {
+        13: 0x65676e6576655273
+      }
+      3: 7
+      4: 1
+      5: 8
+      10 {
+        13: 0x65676e6576655273
+      }
+    }
+    2 {
+      1: "round"
+      3: 8
+      4: 1
+      5: 13
+      10: "round"
+    }
+    2 {
+      1: "levelNum"
+      3: 9
+      4: 1
+      5: 13
+      10: "levelNum"
+    }
+    2 {
+      1: "myRank"
+      3: 10
+      4: 1
+      5: 13
+      10: "myRank"
+    }
+    2 {
+      1: "myRankScore"
+      3: 11
+      4: 1
+      5: 4
+      10: "myRankScore"
+    }
+    2 {
+      1: "rankList"
+      3: 12
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBRankInfo"
+      10: "rankList"
+    }
+    2 {
+      1: "reward"
+      3: 13
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+  }
+  4 {
+    1: "PBUserFestivalItemDropData"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "subActId"
+      3: 2
+      4: 1
+      5: 13
+      10: "subActId"
+    }
+    2 {
+      1: "endTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+  }
+  4 {
+    1 {
+      10: 66
+      9: 0x69746c75
+      14: 108
+      12: 0x6d657449
+    }
+    2 {
+      1: "itemId"
+      3: 1
+      4: 1
+      5: 13
+      10: "itemId"
+    }
+    2 {
+      1: "multiple"
+      3: 2
+      4: 1
+      5: 13
+      10: "multiple"
+    }
+  }
+  4 {
+    1: "PBUserRoad"
+    2 {
+      1: "layerNum"
+      3: 1
+      4: 1
+      5: 13
+      10: "layerNum"
+    }
+    2 {
+      1: "personalReward"
+      3: 2
+      4: 1
+      5: 13
+      10: "personalReward"
+    }
+    2 {
+      1: "dailyLayerNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "dailyLayerNum"
+    }
+    2 {
+      1: "refreshNum1"
+      3: 4
+      4: 1
+      5: 13
+      10: "refreshNum1"
+    }
+    2 {
+      1: "isDailyReward"
+      3: 50
+      4: 1
+      5: 8
+      10: "isDailyReward"
+    }
+  }
+  4 {
+    1: "PBUserMarket"
+    2 {
+      1: "shopType"
+      3: 1
+      4: 1
+      5: 13
+      10: "shopType"
+    }
+    2 {
+      1: "weekBuyNum"
+      3: 2
+      4: 1
+      5: 13
+      10: "weekBuyNum"
+    }
+  }
+  4 {
+    1: "PBUserExtraUp"
+    2 {
+      1: "typeValues"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBAttrD"
+      10: "typeValues"
+    }
+  }
+  4 {
+    1: "PBUserGuard"
+    2 {
+      1: "guardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "guardId"
+    }
+    2 {
+      1: "star"
+      3: 2
+      4: 1
+      5: 13
+      10: "star"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+  }
+  4 {
+    1: "PBUserGuardShard"
+    2 {
+      1: "guardShardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "guardShardId"
+    }
+    2 {
+      1: "num"
+      3: 2
+      4: 1
+      5: 13
+      10: "num"
+    }
+  }
+  4 {
+    1: "PBUserGuardInfo"
+    2 {
+      1: "wishId"
+      3: 1
+      4: 1
+      5: 13
+      10: "wishId"
+    }
+    2 {
+      1: "diamondCount"
+      3: 2
+      4: 1
+      5: 13
+      10: "diamondCount"
+    }
+    2 {
+      1: "point"
+      3: 3
+      4: 1
+      5: 13
+      10: "point"
+    }
+    2 {
+      1: "boxInfo"
+      3: 4
+      4: 3
+      5: 13
+      10: "boxInfo"
+    }
+    2 {
+      1: "boxRound"
+      3: 5
+      4: 1
+      5: 13
+      10: "boxRound"
+    }
+    2 {
+      1: "nextTime"
+      3: 100
+      4: 1
+      5: 13
+      10: "nextTime"
+    }
+    2 {
+      1: "isExpireNotice"
+      3: 101
+      4: 1
+      5: 8
+      10: "isExpireNotice"
+    }
+    2 {
+      1: "boxLevel"
+      3: 102
+      4: 1
+      5: 13
+      10: "boxLevel"
+    }
+  }
+  4 {
+    1: "PBGuardBattleInfo"
+    2 {
+      1: "guardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "guardId"
+    }
+    2 {
+      1: "star"
+      3: 2
+      4: 1
+      5: 13
+      10: "star"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "skillId"
+      3: 4
+      4: 1
+      5: 13
+      10: "skillId"
+    }
+    2 {
+      1: "rate"
+      3: 5
+      4: 1
+      5: 13
+      10: "rate"
+    }
+    2 {
+      1: "cdRoundNum"
+      3: 6
+      4: 1
+      5: 13
+      10: "cdRoundNum"
+    }
+  }
+  4 {
+    1: "PBUserGuardRuneInfo"
+    2 {
+      1: "astralWorldLevel"
+      3: 1
+      4: 1
+      5: 13
+      10: "astralWorldLevel"
+    }
+    2 {
+      1: "upgradeTime"
+      3: 2
+      4: 1
+      5: 13
+      10: "upgradeTime"
+    }
+    2 {
+      1: "runeLevel"
+      3: 3
+      4: 1
+      5: 13
+      10: "runeLevel"
+    }
+    2 {
+      1: "runeExp"
+      3: 4
+      4: 1
+      5: 13
+      10: "runeExp"
+    }
+  }
+  4 {
+    1: "PBGuardRuneSkill"
+    2 {
+      1: "pos"
+      3: 1
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "skillType"
+      3: 2
+      4: 1
+      5: 13
+      10: "skillType"
+    }
+  }
+  4 {
+    1: "PBGuardRune"
+    2 {
+      1: "pos"
+      3: 1
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "runeId"
+      3: 2
+      4: 1
+      5: 13
+      10: "runeId"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "score"
+      3: 4
+      4: 1
+      5: 13
+      10: "score"
+    }
+    2 {
+      1: "quality"
+      3: 5
+      4: 1
+      5: 13
+      10: "quality"
+    }
+    2 {
+      1: "attrs"
+      3: 6
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBAttrD"
+      10: "attrs"
+    }
+    2 {
+      1: "skillType"
+      3: 7
+      4: 1
+      5: 13
+      10: "skillType"
+    }
+  }
+  4 {
+    1: "PBGuardRuneAttr"
+    2 {
+      1: "pos"
+      3: 1
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "attrs"
+      3: 2
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBAttr"
+      10: "attrs"
+    }
+  }
+  4 {
+    1: "PBUserGuardRune"
+    2 {
+      1: "guardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "guardId"
+    }
+    2 {
+      1: "runeId"
+      3: 2
+      4: 1
+      5: 13
+      10: "runeId"
+    }
+    2 {
+      1: "pos"
+      3: 3
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "skill"
+      3: 4
+      4: 1
+      5: 13
+      10: "skill"
+    }
+    2 {
+      1: "level"
+      3: 5
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "runeQuality"
+      3: 6
+      4: 1
+      5: 13
+      10: "runeQuality"
+    }
+    2 {
+      1: "attrs"
+      3: 10
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBAttrD"
+      10: "attrs"
+    }
+    2 {
+      1: "score"
+      3: 11
+      4: 1
+      5: 13
+      10: "score"
+    }
+  }
+  4 {
+    1: "PBUserGuardRuneTemp"
+    2 {
+      1: "guardId"
+      3: 1
+      4: 1
+      5: 13
+      10: "guardId"
+    }
+    2 {
+      1: "runeId"
+      3: 2
+      4: 1
+      5: 13
+      10: "runeId"
+    }
+    2 {
+      1: "pos"
+      3: 3
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "skill"
+      3: 4
+      4: 1
+      5: 13
+      10: "skill"
+    }
+    2 {
+      1: "level"
+      3: 5
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "runeQuality"
+      3: 6
+      4: 1
+      5: 13
+      10: "runeQuality"
+    }
+    2 {
+      1: "attrs"
+      3: 10
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBAttrD"
+      10: "attrs"
+    }
+    2 {
+      1: "score"
+      3: 11
+      4: 1
+      5: 13
+      10: "score"
+    }
+  }
+  4 {
+    1: "PBUserRoadFund"
+    2 {
+      1: "groupId"
+      3: 1
+      4: 1
+      5: 13
+      10: "groupId"
+    }
+    2 {
+      1: "isBuy"
+      3: 2
+      4: 1
+      5: 8
+      10: "isBuy"
+    }
+    2 {
+      1: "freeReward"
+      3: 3
+      4: 3
+      5: 13
+      10: "freeReward"
+    }
+    2 {
+      1: "payReward"
+      3: 4
+      4: 3
+      5: 13
+      10: "payReward"
+    }
+  }
+  4 {
+    1: "PBSeasonDungeonReward"
+    2 {
+      1: "cardList"
+      3: 2
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserCard"
+      10: "cardList"
+    }
+    2 {
+      1: "spiritsList"
+      3: 3
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserSpirits"
+      10: "spiritsList"
+    }
+    2 {
+      1: "holyWeaponList"
+      3: 4
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserHolyWeapon"
+      10: "holyWeaponList"
+    }
+    2 {
+      1: "itemList"
+      3: 5
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserItem"
+      10: "itemList"
+    }
+  }
+  4 {
+    1: "PBUserGuardBossMonster"
+    2 {
+      1: "resetType"
+      3: 1
+      4: 1
+      5: 13
+      10: "resetType"
+    }
+    2 {
+      1: "monsterIndex"
+      3: 2
+      4: 1
+      5: 13
+      10: "monsterIndex"
+    }
+    2 {
+      1: "monsterType"
+      3: 3
+      4: 1
+      5: 13
+      10: "monsterType"
+    }
+    2 {
+      1: "weakenNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "weakenNum"
+    }
+    2 {
+      1: "isDead"
+      3: 5
+      4: 1
+      5: 13
+      10: "isDead"
+    }
+    2 {
+      1: "userInfoShow"
+      3: 6
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserInfoShow"
+      10: "userInfoShow"
+    }
+    2 {
+      1: "team"
+      3: 7
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserTeamShow"
+      10: "team"
+    }
+  }
+  4 {
+    1: "PBSeasonDungeonTeam"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "captainId"
+      3: 2
+      4: 1
+      5: 4
+      10: "captainId"
+    }
+    2 {
+      1: "powerLimit"
+      3: 3
+      4: 1
+      5: 4
+      10: "powerLimit"
+    }
+    2 {
+      1: "checkType"
+      3: 4
+      4: 1
+      5: 13
+      10: "checkType"
+    }
+    2 {
+      1: "name"
+      3: 5
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "seasonDungeonTeamMembers"
+      3: 50
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBSeasonDungeonTeamMember"
+      10: "seasonDungeonTeamMembers"
+    }
+    2 {
+      1: "rank"
+      3: 51
+      4: 1
+      5: 13
+      10: "rank"
+    }
+    2 {
+      1: "isApply"
+      3: 52
+      4: 1
+      5: 8
+      10: "isApply"
+    }
+    2 {
+      1: "items"
+      3: 53
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBItemInfo"
+      10: "items"
+    }
+    2 {
+      1: "layer"
+      3: 54
+      4: 1
+      5: 13
+      10: "layer"
+    }
+  }
+  4 {
+    1: "PBSeasonDungeonTeamMember"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "name"
+      3: 2
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "icon"
+      3: 4
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "serverId"
+      3: 5
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "power"
+      3: 6
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "joinTime"
+      3: 50
+      4: 1
+      5: 13
+      10: "joinTime"
+    }
+  }
+  4 {
+    1: "PBUserSeasonDungeonExplore"
+    2 {
+      1: "layer"
+      3: 1
+      4: 1
+      5: 13
+      10: "layer"
+    }
+    2 {
+      1: "pos"
+      3: 2
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "dicePoint"
+      3: 3
+      4: 3
+      5: 13
+      10: "dicePoint"
+    }
+    2 {
+      1: "diceDayNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "diceDayNum"
+    }
+    2 {
+      1: "eventQueue"
+      3: 5
+      4: 3
+      5: 4
+      10: "eventQueue"
+    }
+    2 {
+      1: "actionCount"
+      3: 6
+      4: 1
+      5: 13
+      10: "actionCount"
+    }
+    2 {
+      1: "shareNum"
+      3: 7
+      4: 1
+      5: 13
+      10: "shareNum"
+    }
+    2 {
+      1 {
+        12: 0x6d754e7473697373
+      }
+      3: 8
+      4: 1
+      5: 13
+      10 {
+        12: 0x6d754e7473697373
+      }
+    }
+    2 {
+      1: "heroPot"
+      3: 9
+      4: 3
+      5: 13
+      10: "heroPot"
+    }
+    2 {
+      1: "offlineLayer"
+      3: 10
+      4: 1
+      5: 13
+      10: "offlineLayer"
+    }
+    2 {
+      1: "userInfoShow"
+      3: 100
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserInfoShow"
+      10: "userInfoShow"
+    }
+    2 {
+      1 {
+        13: 0x6e69617470614373
+      }
+      3: 101
+      4: 1
+      5: 13
+      10 {
+        13: 0x6e69617470614373
+      }
+    }
+    2 {
+      1: "userSeasonDungeonRandomEvent"
+      3: 102
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserSeasonDungeonRandomEvent"
+      10: "userSeasonDungeonRandomEvent"
+    }
+  }
+  4 {
+    1: "PBUserSeasonDungeonRandomEvent"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "param"
+      3: 2
+      4: 1
+      5: 13
+      10: "param"
+    }
+  }
+  4 {
+    1: "PBSeasonDungeonTeamExplore"
+    2 {
+      1: "teamId"
+      3: 1
+      4: 1
+      5: 4
+      10: "teamId"
+    }
+    2 {
+      1: "layer"
+      3: 2
+      4: 1
+      5: 13
+      10: "layer"
+    }
+    2 {
+      1: "actionCount"
+      3: 3
+      4: 1
+      5: 13
+      10: "actionCount"
+    }
+  }
+  4 {
+    1: "PBSeasonDungeonTeamExploreLog"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "type"
+      3: 2
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "addTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+    2 {
+      1: "num"
+      3: 4
+      4: 3
+      5: 13
+      10: "num"
+    }
+    2 {
+      1: "name"
+      3: 5
+      4: 1
+      5: 9
+      10: "name"
+    }
+  }
+  4 {
+    1: "PBUserSeasonDungeonExploreAchieve"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "taskId"
+      3: 2
+      4: 1
+      5: 13
+      10: "taskId"
+    }
+    2 {
+      1: "num"
+      3: 3
+      4: 1
+      5: 13
+      10: "num"
+    }
+    2 {
+      1: "isTake"
+      3: 4
+      4: 1
+      5: 13
+      10: "isTake"
+    }
+  }
+  4 {
+    1: "PBUserSeasonDungeonWar"
+    2 {
+      1: "fightNum"
+      3: 1
+      4: 1
+      5: 13
+      10: "fightNum"
+    }
+    2 {
+      1: "curDamage"
+      3: 2
+      4: 1
+      5: 4
+      10: "curDamage"
+    }
+    2 {
+      1: "seasonDungeonWarLevelReward"
+      3: 3
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBSeasonDungeonWarLevelReward"
+      10: "seasonDungeonWarLevelReward"
+    }
+    2 {
+      1: "isLevelRewardTake"
+      3: 4
+      4: 1
+      5: 13
+      10: "isLevelRewardTake"
+    }
+    2 {
+      1: "teamId"
+      3: 5
+      4: 1
+      5: 4
+      10: "teamId"
+    }
+    2 {
+      1: "teamName"
+      3: 6
+      4: 1
+      5: 9
+      10: "teamName"
+    }
+    2 {
+      1: "teamIcon"
+      3: 7
+      4: 1
+      5: 9
+      10: "teamIcon"
+    }
+  }
+  4 {
+    1: "PBSeasonDungeonWarLevelReward"
+    2 {
+      1: "level"
+      3: 1
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "rewardLevel"
+      3: 2
+      4: 3
+      5: 13
+      10: "rewardLevel"
+    }
+  }
+  4 {
+    1: "PBSeasonDungeonWarBoss"
+    2 {
+      1: "level"
+      3: 1
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "damage"
+      3: 2
+      4: 1
+      5: 4
+      10: "damage"
+    }
+    2 {
+      1: "rewardLevel"
+      3: 3
+      4: 1
+      5: 13
+      10: "rewardLevel"
+    }
+    2 {
+      1: "defeatTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "defeatTime"
+    }
+  }
+  4 {
+    1: "PBSeasonDungeonWarRecord"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "name"
+      3: 2
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "icon"
+      3: 3
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "power"
+      3: 4
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "damage"
+      3: 5
+      4: 1
+      5: 4
+      10: "damage"
+    }
+    2 {
+      1: "level"
+      3: 6
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "defeatTime"
+      3: 7
+      4: 1
+      5: 13
+      10: "defeatTime"
+    }
+    2 {
+      1: "frameId"
+      3: 8
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+  }
+  4 {
+    1: "PBSeasonDungeonChallengeRecord"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "name"
+      3: 2
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "icon"
+      3: 3
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "power"
+      3: 4
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "damage"
+      3: 5
+      4: 1
+      5: 4
+      10: "damage"
+    }
+    2 {
+      1: "addTime"
+      3: 6
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+    2 {
+      1: "frameId"
+      3: 7
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+  }
+  4 {
+    1: "PBUserSeasonDungeonExploreRewardSave"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "actId"
+      3: 2
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "type"
+      3: 3
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "addTime"
+      3: 4
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+    2 {
+      1: "isTake"
+      3: 5
+      4: 1
+      5: 13
+      10: "isTake"
+    }
+    2 {
+      1: "param"
+      3: 6
+      4: 3
+      5: 13
+      10: "param"
+    }
+    2 {
+      1: "reward"
+      3: 100
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBItemInfo"
+      10: "reward"
+    }
+  }
+  4 {
+    1: "PBUserSeasonDungeonExploreMonster"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "userId"
+      3: 2
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "actId"
+      3: 3
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "stageId"
+      3: 4
+      4: 1
+      5: 13
+      10: "stageId"
+    }
+    2 {
+      1: "addTime"
+      3: 5
+      4: 1
+      5: 13
+      10: "addTime"
+    }
+    2 {
+      1 {
+        12: 0x72697078
+        12: 0x656d6954
+      }
+      3: 6
+      4: 1
+      5: 13
+      10 {
+        12: 0x72697078
+        12: 0x656d6954
+      }
+    }
+    2 {
+      1: "isAssist"
+      3: 7
+      4: 1
+      5: 13
+      10: "isAssist"
+    }
+    2 {
+      1: "userName"
+      3: 100
+      4: 1
+      5: 9
+      10: "userName"
+    }
+  }
+  4 {
+    1: "PBUserSeasonDungeonExplorePush"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "layer"
+      3: 2
+      4: 1
+      5: 13
+      10: "layer"
+    }
+    2 {
+      1: "pos"
+      3: 3
+      4: 1
+      5: 13
+      10: "pos"
+    }
+    2 {
+      1: "dicePoint"
+      3: 4
+      4: 3
+      5: 13
+      10: "dicePoint"
+    }
+    2 {
+      1: "eventQueue"
+      3: 5
+      4: 3
+      5: 13
+      10: "eventQueue"
+    }
+    2 {
+      1: "isBossDefeat"
+      3: 6
+      4: 1
+      5: 13
+      10: "isBossDefeat"
+    }
+    2 {
+      1: "teamActionCount"
+      3: 7
+      4: 1
+      5: 13
+      10: "teamActionCount"
+    }
+    2 {
+      1: "teamStatus"
+      3: 8
+      4: 1
+      5: 13
+      10: "teamStatus"
+    }
+    2 {
+      1: "userInfoShow"
+      3: 9
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserInfoShow"
+      10: "userInfoShow"
+    }
+  }
+  4 {
+    1: "PBUserSeasonDungeonFightGift"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "fightNormalRewardLevel"
+      3: 2
+      4: 1
+      5: 13
+      10: "fightNormalRewardLevel"
+    }
+    2 {
+      1: "fightHighRewardLevel"
+      3: 3
+      4: 1
+      5: 13
+      10: "fightHighRewardLevel"
+    }
+    2 {
+      1: "isFightRecharge"
+      3: 4
+      4: 1
+      5: 13
+      10: "isFightRecharge"
+    }
+    2 {
+      1: "isClickRedPoint"
+      3: 5
+      4: 1
+      5: 13
+      10: "isClickRedPoint"
+    }
+  }
+  4 {
+    1: "PBFamilyGuardBossBox"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "groupId"
+      3: 2
+      4: 1
+      5: 13
+      10: "groupId"
+    }
+    2 {
+      1: "boxGroupId"
+      3: 3
+      4: 1
+      5: 13
+      10: "boxGroupId"
+    }
+    2 {
+      1: "rewardId"
+      3: 4
+      4: 3
+      5: 13
+      10: "rewardId"
+    }
+    2 {
+      1: "endTime"
+      3: 5
+      4: 1
+      5: 13
+      10: "endTime"
+    }
+    2 {
+      1: "name"
+      3: 50
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "serverId"
+      3: 51
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "icon"
+      3: 52
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "userInfoShows"
+      3: 53
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserInfoShow"
+      10: "userInfoShows"
+    }
+  }
+  4 {
+    1: "PBUserTrialTower"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "isFirstEntry"
+      3: 2
+      4: 1
+      5: 13
+      10: "isFirstEntry"
+    }
+    2 {
+      1: "stage1FightNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "stage1FightNum"
+    }
+    2 {
+      1 {
+        14 {
+        }
+        12: 0x6c696d6146316567
+        15: 0x6d754e7468676946
+      }
+      3: 4
+      4: 3
+      5: 13
+      10 {
+        14 {
+        }
+        12: 0x6c696d6146316567
+        15: 0x6d754e7468676946
+      }
+    }
+    2 {
+      1: "stage1FastRewardNum"
+      3: 5
+      4: 1
+      5: 13
+      10: "stage1FastRewardNum"
+    }
+    2 {
+      1: "stage1StageReward"
+      3: 6
+      4: 3
+      5: 13
+      10: "stage1StageReward"
+    }
+    2 {
+      1: "stage1SkillItemCost"
+      3: 7
+      4: 1
+      5: 4
+      10: "stage1SkillItemCost"
+    }
+    2 {
+      1: "isStage1TeamCheck"
+      3: 8
+      4: 1
+      5: 13
+      10: "isStage1TeamCheck"
+    }
+    2 {
+      1: "stage1FastFamilyId"
+      3: 9
+      4: 1
+      5: 4
+      10: "stage1FastFamilyId"
+    }
+    2 {
+      1: "isSecondEntry"
+      3: 10
+      4: 1
+      5: 13
+      10: "isSecondEntry"
+    }
+  }
+  4 {
+    1: "PBTrialTowerFamily"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "familyId"
+      3: 2
+      4: 1
+      5: 4
+      10: "familyId"
+    }
+    2 {
+      1: "stage1FightNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "stage1FightNum"
+    }
+    2 {
+      1: "familyLevel"
+      3: 4
+      4: 1
+      5: 13
+      10: "familyLevel"
+    }
+    2 {
+      1: "stage1FastDay"
+      3: 5
+      4: 1
+      5: 13
+      10: "stage1FastDay"
+    }
+  }
+  4 {
+    1: "PBTrialTowerFamilyStage1Boss"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "familyId"
+      3: 2
+      4: 1
+      5: 4
+      10: "familyId"
+    }
+    2 {
+      1: "stageId"
+      3: 3
+      4: 1
+      5: 13
+      10: "stageId"
+    }
+    2 {
+      1 {
+        13: 112
+      }
+      3: 4
+      4: 3
+      5: 4
+      10 {
+        13: 112
+      }
+    }
+    2 {
+      1: "actualLevel"
+      3: 5
+      4: 1
+      5: 13
+      10: "actualLevel"
+    }
+    2 {
+      1: "defeatTime"
+      3: 6
+      4: 1
+      5: 13
+      10: "defeatTime"
+    }
+    2 {
+      1: "totalHpInit"
+      3: 100
+      4: 1
+      5: 4
+      10: "totalHpInit"
+    }
+  }
+  4 {
+    1: "PBUserTrialTowerStage1Skill"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "skillType"
+      3: 2
+      4: 1
+      5: 13
+      10: "skillType"
+    }
+    2 {
+      1: "skillLevel"
+      3: 3
+      4: 1
+      5: 13
+      10: "skillLevel"
+    }
+  }
+  4 {
+    1: "PBTrialTowerFamilySkill"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "skillType"
+      3: 2
+      4: 1
+      5: 13
+      10: "skillType"
+    }
+    2 {
+      1: "skillLevel"
+      3: 3
+      4: 1
+      5: 13
+      10: "skillLevel"
+    }
+  }
+  4 {
+    1: "PBChampionKnockoutPresentTarget"
+    2 {
+      1: "zoneType"
+      3: 1
+      4: 1
+      5: 13
+      10: "zoneType"
+    }
+    2 {
+      1: "targetFlowerNum"
+      3: 2
+      4: 1
+      5: 4
+      10: "targetFlowerNum"
+    }
+    2 {
+      1: "targetEggNum"
+      3: 3
+      4: 1
+      5: 4
+      10: "targetEggNum"
+    }
+    2 {
+      1: "targetUserId"
+      3: 4
+      4: 1
+      5: 4
+      10: "targetUserId"
+    }
+  }
+  4 {
+    1: "PBTrialTowerFamilyStage1BossRecord"
+    2 {
+      1: "actId"
+      3: 1
+      4: 1
+      5: 4
+      10: "actId"
+    }
+    2 {
+      1: "familyId"
+      3: 2
+      4: 1
+      5: 4
+      10: "familyId"
+    }
+    2 {
+      1: "stageId"
+      3: 3
+      4: 1
+      5: 13
+      10: "stageId"
+    }
+    2 {
+      1: "userId"
+      3: 4
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "damage"
+      3: 5
+      4: 1
+      5: 4
+      10: "damage"
+    }
+    2 {
+      1: "name"
+      3: 100
+      4: 1
+      5: 9
+      10: "name"
+    }
+  }
+  12: "proto3"
+}

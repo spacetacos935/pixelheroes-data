@@ -1,0 +1,23 @@
+cloudflare:
+  token:
+  zone:
+
+supabase:
+  url:
+  key:
+
+regions:
+  - name: NA
+    cron: 0 0 * * *
+    timezone: America/Los_Angeles
+    healthchecks: https://hc-ping.com/d06479a4-187d-49bf-a577-0742c431193e
+    websocket: wss://pixelheroes-gw-na-ob.haoplay.com/game
+    token:
+    start: 31000000000000
+  - name: EU
+    cron: 0 0 * * *
+    timezone: Etc/UTC
+    healthchecks: https://hc-ping.com/1e6db7b1-2a9f-490e-9468-1de27c0eb500
+    websocket: wss://pixelheroes-gw-eu-ob.haoplay.com/game
+    token:
+    start: 30000000000000

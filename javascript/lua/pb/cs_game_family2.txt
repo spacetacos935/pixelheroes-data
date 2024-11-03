@@ -1,0 +1,1330 @@
+1 {
+  1: "cs_game_family.proto"
+  2: "com.motu.underground.protocol"
+  3: "common.proto"
+  4 {
+    1: "PBFamilyMember"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "name"
+      3: 2
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "icon"
+      3: 4
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "contribution"
+      3: 5
+      4: 1
+      5: 13
+      10: "contribution"
+    }
+    2 {
+      1: "contributionWeek"
+      3: 6
+      4: 1
+      5: 13
+      10: "contributionWeek"
+    }
+    2 {
+      1 {
+        14: 111
+        14 {
+        }
+      }
+      3: 7
+      4: 1
+      5: 13
+      10 {
+        14: 111
+        14 {
+        }
+      }
+    }
+    2 {
+      1: "offlineTime"
+      3: 8
+      4: 1
+      5: 13
+      10: "offlineTime"
+    }
+    2 {
+      1: "tempEndTime"
+      3: 9
+      4: 1
+      5: 13
+      10: "tempEndTime"
+    }
+    2 {
+      1: "frameId"
+      3: 10
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "recruitNum"
+      3: 11
+      4: 1
+      5: 13
+      10: "recruitNum"
+    }
+    2 {
+      1: "power"
+      3: 12
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "serverId"
+      3: 13
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+    2 {
+      1: "soulWeaponLevel"
+      3: 14
+      4: 1
+      5: 13
+      10: "soulWeaponLevel"
+    }
+    2 {
+      1: "familyPriceCost"
+      3: 15
+      4: 1
+      5: 4
+      10: "familyPriceCost"
+    }
+  }
+  4 {
+    1: "PBFamilyApply"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "name"
+      3: 2
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+    2 {
+      1: "icon"
+      3: 4
+      4: 1
+      5: 9
+      10: "icon"
+    }
+    2 {
+      1: "power"
+      3: 5
+      4: 1
+      5: 4
+      10: "power"
+    }
+    2 {
+      1: "frameId"
+      3: 6
+      4: 1
+      5: 13
+      10: "frameId"
+    }
+    2 {
+      1: "serverId"
+      3: 7
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+  }
+  4 {
+    1: "PBFamilyDynamic"
+    2 {
+      1: "type"
+      3: 1
+      4: 1
+      5: 13
+      10: "type"
+    }
+    2 {
+      1: "name"
+      3: 2
+      4: 1
+      5: 9
+      10: "name"
+    }
+    2 {
+      1: "param"
+      3: 3
+      4: 1
+      5: 13
+      10: "param"
+    }
+    2 {
+      1: "time"
+      3: 4
+      4: 1
+      5: 13
+      10: "time"
+    }
+    2 {
+      1: "serverId"
+      3: 5
+      4: 1
+      5: 13
+      10: "serverId"
+    }
+  }
+  4 {
+    1: "PBFamilyWish"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1: "wishId"
+      3: 2
+      4: 1
+      5: 13
+      10: "wishId"
+    }
+    2 {
+      1 {
+        12: 0x6d754e7473697373
+      }
+      3: 3
+      4: 1
+      5: 13
+      10 {
+        12: 0x6d754e7473697373
+      }
+    }
+    2 {
+      1: "assistedNum"
+      3: 4
+      4: 1
+      5: 13
+      10: "assistedNum"
+    }
+    2 {
+      1: "userName"
+      3: 5
+      4: 1
+      5: 9
+      10: "userName"
+    }
+    2 {
+      1: "time"
+      3: 6
+      4: 1
+      5: 13
+      10: "time"
+    }
+  }
+  4 {
+    1: "CSGameFamilyListRequest"
+    2 {
+      1: "familyName"
+      3: 1
+      4: 1
+      5: 9
+      10: "familyName"
+    }
+    2 {
+      1: "index"
+      3: 2
+      4: 1
+      5: 13
+      10: "index"
+    }
+    2 {
+      1: "isLimit"
+      3: 3
+      4: 1
+      5: 8
+      10: "isLimit"
+    }
+  }
+  4 {
+    1: "CSGameFamilyListResponse"
+    2 {
+      1: "familyInfoList"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyInfo"
+      10: "familyInfoList"
+    }
+    2 {
+      1: "familyId"
+      3: 2
+      4: 1
+      5: 4
+      10: "familyId"
+    }
+    2 {
+      1: "leaveTime"
+      3: 3
+      4: 1
+      5: 13
+      10: "leaveTime"
+    }
+    2 {
+      1: "index"
+      3: 4
+      4: 1
+      5: 13
+      10: "index"
+    }
+  }
+  4 {
+    1: "CSGameFamilyCreateRequest"
+    2 {
+      1: "familyName"
+      3: 1
+      4: 1
+      5: 9
+      10: "familyName"
+    }
+    2 {
+      1: "icon"
+      3: 2
+      4: 1
+      5: 13
+      10: "icon"
+    }
+  }
+  4 {
+    1: "CSGameFamilyCreateResponse"
+    2 {
+      1: "familyInfo"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyInfo"
+      10: "familyInfo"
+    }
+    2 {
+      1: "reward"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+  }
+  4 {
+    1: "CSGameFamilyChangeNameRequest"
+    2 {
+      1: "newName"
+      3: 1
+      4: 1
+      5: 9
+      10: "newName"
+    }
+  }
+  4 {
+    1: "CSGameFamilyChangeNameResponse"
+    2 {
+      1: "familyName"
+      3: 1
+      4: 1
+      5: 9
+      10: "familyName"
+    }
+    2 {
+      1: "reward"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+    2 {
+      1: "isRenameFree"
+      3: 3
+      4: 1
+      5: 8
+      10: "isRenameFree"
+    }
+  }
+  4 {
+    1: "CSGameFamilyChangeIconRequest"
+    2 {
+      1: "newIcon"
+      3: 1
+      4: 1
+      5: 13
+      10: "newIcon"
+    }
+  }
+  4 {
+    1: "CSGameFamilyChangeIconResponse"
+    2 {
+      1: "familyIcon"
+      3: 1
+      4: 1
+      5: 13
+      10: "familyIcon"
+    }
+  }
+  4 {
+    1: "CSGameFamilyChangeLimitRequest"
+    2 {
+      1: "limitType"
+      3: 1
+      4: 1
+      5: 13
+      10: "limitType"
+    }
+    2 {
+      1: "limitLevel"
+      3: 2
+      4: 1
+      5: 13
+      10: "limitLevel"
+    }
+  }
+  4 {
+    1: "CSGameFamilyChangeLimitResponse"
+    2 {
+      1: "limitType"
+      3: 1
+      4: 1
+      5: 13
+      10: "limitType"
+    }
+    2 {
+      1: "limitLevel"
+      3: 2
+      4: 1
+      5: 13
+      10: "limitLevel"
+    }
+  }
+  4 {
+    1: "CSGameFamilyChangeNoticeRequest"
+    2 {
+      1: "notice"
+      3: 1
+      4: 1
+      5: 9
+      10: "notice"
+    }
+  }
+  4 {
+    1: "CSGameFamilyChangeNoticeResponse"
+    2 {
+      1: "notice"
+      3: 1
+      4: 1
+      5: 9
+      10: "notice"
+    }
+  }
+  4 {
+    1: "CSGameFamilyMemberListRequest"
+  }
+  4 {
+    1: "CSGameFamilyMemberListResponse"
+    2 {
+      1: "familyMemberList"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyMember"
+      10: "familyMemberList"
+    }
+  }
+  4 {
+    1: "CSGameFamilyApplyRequest"
+    2 {
+      1: "familyId"
+      3: 1
+      4: 1
+      5: 4
+      10: "familyId"
+    }
+  }
+  4 {
+    1: "CSGameFamilyApplyResponse"
+    2 {
+      1: "isJoin"
+      3: 1
+      4: 1
+      5: 8
+      10: "isJoin"
+    }
+    2 {
+      1: "familyInfo"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyInfo"
+      10: "familyInfo"
+    }
+    2 {
+      1: "familyId"
+      3: 3
+      4: 1
+      5: 4
+      10: "familyId"
+    }
+  }
+  4 {
+    1: "CSGameFamilyApplyListRequest"
+  }
+  4 {
+    1: "CSGameFamilyApplyListResponse"
+    2 {
+      1: "familyApplylist"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyApply"
+      10: "familyApplylist"
+    }
+  }
+  4 {
+    1: "CSGameFamilyApplyOperateRequest"
+    2 {
+      1: "userIdList"
+      3: 1
+      4: 3
+      5: 4
+      10: "userIdList"
+    }
+    2 {
+      1: "isAgree"
+      3: 2
+      4: 1
+      5: 8
+      10: "isAgree"
+    }
+  }
+  4 {
+    1: "CSGameFamilyApplyOperateResponse"
+    2 {
+      1: "isAgree"
+      3: 1
+      4: 1
+      5: 8
+      10: "isAgree"
+    }
+    2 {
+      1: "userIdList"
+      3: 2
+      4: 3
+      5: 4
+      10: "userIdList"
+    }
+    2 {
+      1: "memberNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "memberNum"
+    }
+    2 {
+      1: "familyMemberList"
+      3: 4
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyMember"
+      10: "familyMemberList"
+    }
+  }
+  4 {
+    1: "CSGameFamilyAppointRequest"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1 {
+        14: 111
+        14 {
+        }
+      }
+      3: 2
+      4: 1
+      5: 13
+      10 {
+        14: 111
+        14 {
+        }
+      }
+    }
+  }
+  4 {
+    1: "CSGameFamilyAppointResponse"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+    2 {
+      1 {
+        14: 111
+        14 {
+        }
+      }
+      3: 2
+      4: 1
+      5: 13
+      10 {
+        14: 111
+        14 {
+        }
+      }
+    }
+  }
+  4 {
+    1: "CSGameFamilyExitRequest"
+  }
+  4 {
+    1: "CSGameFamilyExitResponse"
+    2 {
+      1: "leaveTime"
+      3: 1
+      4: 1
+      5: 13
+      10: "leaveTime"
+    }
+  }
+  4 {
+    1: "CSGameFamilyKickRequest"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+  }
+  4 {
+    1: "CSGameFamilyKickResponse"
+    2 {
+      1: "userId"
+      3: 1
+      4: 1
+      5: 4
+      10: "userId"
+    }
+  }
+  4 {
+    1: "CSGameFamilyDynamicListRequest"
+  }
+  4 {
+    1: "CSGameFamilyDynamicListResponse"
+    2 {
+      1: "familyDynamicList"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyDynamic"
+      10: "familyDynamicList"
+    }
+  }
+  4 {
+    1: "CSGameFamilyRecruitRequest"
+  }
+  4 {
+    1: "CSGameFamilyRecruitResponse"
+    2 {
+      1: "reward"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+    2 {
+      1: "recruitNum"
+      3: 2
+      4: 1
+      5: 13
+      10: "recruitNum"
+    }
+  }
+  4 {
+    1: "CSGameFamilyInfoRequest"
+    2 {
+      1: "familyId"
+      3: 1
+      4: 1
+      5: 4
+      10: "familyId"
+    }
+  }
+  4 {
+    1: "CSGameFamilyInfoResponse"
+    2 {
+      1: "familyInfo"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyInfo"
+      10: "familyInfo"
+    }
+    2 {
+      1: "familyMemberList"
+      3: 2
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyMember"
+      10: "familyMemberList"
+    }
+    2 {
+      1: "userInfo"
+      3: 3
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserInfoShow"
+      10: "userInfo"
+    }
+    2 {
+      1: "familyGuardBossBoxs"
+      3: 4
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyGuardBossBox"
+      10: "familyGuardBossBoxs"
+    }
+    2 {
+      1: "guradBossBoxNum"
+      3: 5
+      4: 1
+      5: 13
+      10: "guradBossBoxNum"
+    }
+  }
+  4 {
+    1: "CSGameFamilyJoinNoticeResponse"
+    2 {
+      1: "familyId"
+      3: 1
+      4: 1
+      5: 4
+      10: "familyId"
+    }
+  }
+  4 {
+    1: "CSGameFamilyDissolveRequest"
+    2 {
+      1: "isDissolve"
+      3: 1
+      4: 1
+      5: 8
+      10: "isDissolve"
+    }
+  }
+  4 {
+    1: "CSGameFamilyDissolveResponse"
+    2 {
+      1: "familyInfo"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyInfo"
+      10: "familyInfo"
+    }
+  }
+  4 {
+    1: "CSGameFamilySkillInfoRequest"
+  }
+  4 {
+    1: "CSGameFamilySkillInfoResponse"
+    2 {
+      1: "familyCommonSkill"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyCommonSkill"
+      10: "familyCommonSkill"
+    }
+    2 {
+      1: "familyHighSkill"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyHighSkill"
+      10: "familyHighSkill"
+    }
+  }
+  4 {
+    1: "CSGameFamilyCommonSkillUpgradeRequest"
+    2 {
+      1: "fightType"
+      3: 1
+      4: 1
+      5: 13
+      10: "fightType"
+    }
+    2 {
+      1: "position"
+      3: 2
+      4: 1
+      5: 13
+      10: "position"
+    }
+  }
+  4 {
+    1: "CSGameFamilyCommonSkillUpgradeResponse"
+    2 {
+      1: "familyCommonSkill"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyCommonSkill"
+      10: "familyCommonSkill"
+    }
+    2 {
+      1: "reward"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+  }
+  4 {
+    1: "CSGameFamilyCommonSkillResetRequest"
+    2 {
+      1: "fightType"
+      3: 1
+      4: 1
+      5: 13
+      10: "fightType"
+    }
+  }
+  4 {
+    1: "CSGameFamilyCommonSkillResetResponse"
+    2 {
+      1: "familyCommonSkill"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyCommonSkill"
+      10: "familyCommonSkill"
+    }
+    2 {
+      1: "reward"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+  }
+  4 {
+    1: "CSGameFamilyHighSkillUpgradeRequest"
+  }
+  4 {
+    1: "CSGameFamilyHighSkillUpgradeResponse"
+    2 {
+      1: "familyHighSkill"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyHighSkill"
+      10: "familyHighSkill"
+    }
+    2 {
+      1: "reward"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+  }
+  4 {
+    1: "CSGameFamilyHuntInfoRequest"
+  }
+  4 {
+    1: "CSGameFamilyHuntInfoResponse"
+    2 {
+      1: "familyHuntInfo"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyHuntInfo"
+      10: "familyHuntInfo"
+    }
+    2 {
+      1 {
+        14: 0x46726573
+        12: 0x746e7548796c696d
+      }
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyHunt"
+      10 {
+        14: 0x46726573
+        12: 0x746e7548796c696d
+      }
+    }
+    2 {
+      1: "myRank"
+      3: 3
+      4: 1
+      5: 13
+      10: "myRank"
+    }
+    2 {
+      1: "myScore"
+      3: 4
+      4: 1
+      5: 1
+      10: "myScore"
+    }
+    2 {
+      1: "rankList"
+      3: 5
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBRankInfo"
+      10: "rankList"
+    }
+    2 {
+      1: "isReward"
+      3: 6
+      4: 1
+      5: 8
+      10: "isReward"
+    }
+  }
+  4 {
+    1: "CSGameFamilyHuntFightRequest"
+    2 {
+      1: "isSweep"
+      3: 1
+      4: 1
+      5: 8
+      10: "isSweep"
+    }
+    2 {
+      1: "huntId"
+      3: 2
+      4: 1
+      5: 13
+      10: "huntId"
+    }
+  }
+  4 {
+    1: "CSGameFamilyHuntFightResponse"
+    2 {
+      1: "familyHuntInfo"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyHuntInfo"
+      10: "familyHuntInfo"
+    }
+    2 {
+      1 {
+        14: 0x46726573
+        12: 0x746e7548796c696d
+      }
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyHunt"
+      10 {
+        14: 0x46726573
+        12: 0x746e7548796c696d
+      }
+    }
+    2 {
+      1: "myRank"
+      3: 3
+      4: 1
+      5: 13
+      10: "myRank"
+    }
+    2 {
+      1: "myScore"
+      3: 4
+      4: 1
+      5: 1
+      10: "myScore"
+    }
+    2 {
+      1: "rankList"
+      3: 5
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBRankInfo"
+      10: "rankList"
+    }
+    2 {
+      1: "reward"
+      3: 6
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+    2 {
+      1: "familyLevel"
+      3: 7
+      4: 1
+      5: 13
+      10: "familyLevel"
+    }
+    2 {
+      1: "familyExp"
+      3: 8
+      4: 1
+      5: 13
+      10: "familyExp"
+    }
+    2 {
+      1: "battle"
+      3: 9
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBBattle"
+      10: "battle"
+    }
+    2 {
+      1: "isReward"
+      3: 10
+      4: 1
+      5: 8
+      10: "isReward"
+    }
+    2 {
+      1: "fightDamage"
+      3: 11
+      4: 1
+      5: 4
+      10: "fightDamage"
+    }
+  }
+  4 {
+    1: "CSGameFamilyHuntAssembleRequest"
+  }
+  4 {
+    1: "CSGameFamilyHuntAssembleResponse"
+    2 {
+      1 {
+        14: 0x46726573
+        12: 0x746e7548796c696d
+      }
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyHunt"
+      10 {
+        14: 0x46726573
+        12: 0x746e7548796c696d
+      }
+    }
+  }
+  4 {
+    1: "CSGameFamilyHuntBuyRequest"
+  }
+  4 {
+    1: "CSGameFamilyHuntBuyResponse"
+    2 {
+      1 {
+        14: 0x46726573
+        12: 0x746e7548796c696d
+      }
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyHunt"
+      10 {
+        14: 0x46726573
+        12: 0x746e7548796c696d
+      }
+    }
+    2 {
+      1: "reward"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+  }
+  4 {
+    1: "CSGameFamilyWishInfoRequest"
+  }
+  4 {
+    1: "CSGameFamilyWishInfoResponse"
+    2 {
+      1: "familyWish"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyWish"
+      10: "familyWish"
+    }
+    2 {
+      1 {
+        14: 0x46726573
+        12: 0x68736957796c696d
+      }
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyWish"
+      10 {
+        14: 0x46726573
+        12: 0x68736957796c696d
+      }
+    }
+  }
+  4 {
+    1: "CSGameFamilyWishChooseRequest"
+    2 {
+      1: "wishId"
+      3: 1
+      4: 1
+      5: 13
+      10: "wishId"
+    }
+  }
+  4 {
+    1: "CSGameFamilyWishChooseResponse"
+    2 {
+      1 {
+        14: 0x46726573
+        12: 0x68736957796c696d
+      }
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyWish"
+      10 {
+        14: 0x46726573
+        12: 0x68736957796c696d
+      }
+    }
+  }
+  4 {
+    1: "CSGameFamilyWishAssistRequest"
+    2 {
+      1: "targetUserId"
+      3: 1
+      4: 1
+      5: 4
+      10: "targetUserId"
+    }
+  }
+  4 {
+    1: "CSGameFamilyWishAssistResponse"
+    2 {
+      1: "familyWish"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyWish"
+      10: "familyWish"
+    }
+    2 {
+      1 {
+        14: 0x46726573
+        12: 0x68736957796c696d
+      }
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyWish"
+      10 {
+        14: 0x46726573
+        12: 0x68736957796c696d
+      }
+    }
+    2 {
+      1: "reward"
+      3: 3
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+  }
+  4 {
+    1: "CSGameFamilyWishTaskRewardRequest"
+    2 {
+      1: "dbId"
+      3: 1
+      4: 1
+      5: 13
+      10: "dbId"
+    }
+  }
+  4 {
+    1: "CSGameFamilyWishTaskRewardResponse"
+    2 {
+      1 {
+        14: 0x46726573
+        12: 0x68736957796c696d
+      }
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyWish"
+      10 {
+        14: 0x46726573
+        12: 0x68736957796c696d
+      }
+    }
+    2 {
+      1: "reward"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+  }
+  4 {
+    1: "CSGameFamilyCommonSkillUpgradeMoreRequest"
+    2 {
+      1: "fightType"
+      3: 1
+      4: 1
+      5: 13
+      10: "fightType"
+    }
+    2 {
+      1: "position"
+      3: 2
+      4: 1
+      5: 13
+      10: "position"
+    }
+    2 {
+      1: "level"
+      3: 3
+      4: 1
+      5: 13
+      10: "level"
+    }
+  }
+  4 {
+    1: "CSGameFamilyCommonSkillUpgradeMoreResponse"
+    2 {
+      1: "familyCommonSkill"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBUserFamilyCommonSkill"
+      10: "familyCommonSkill"
+    }
+    2 {
+      1: "reward"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+  }
+  4 {
+    1: "CSGameFamilyGuardBossBoxRewardRequest"
+    2 {
+      1: "id"
+      3: 1
+      4: 1
+      5: 4
+      10: "id"
+    }
+    2 {
+      1: "index"
+      3: 2
+      4: 1
+      5: 13
+      10: "index"
+    }
+  }
+  4 {
+    1: "CSGameFamilyGuardBossBoxRewardResponse"
+    2 {
+      1: "familyGuardBossBox"
+      3: 1
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyGuardBossBox"
+      10: "familyGuardBossBox"
+    }
+    2 {
+      1: "reward"
+      3: 2
+      4: 1
+      5: 11
+      6: ".com.motu.underground.protocol.PBRewardInfo"
+      10: "reward"
+    }
+    2 {
+      1: "guradBossBoxNum"
+      3: 3
+      4: 1
+      5: 13
+      10: "guradBossBoxNum"
+    }
+  }
+  4 {
+    1: "CSGameFamilyGuardBossBoxInfoRequest"
+  }
+  4 {
+    1: "CSGameFamilyGuardBossBoxInfoResponse"
+    2 {
+      1: "familyGuardBossBoxs"
+      3: 1
+      4: 3
+      5: 11
+      6: ".com.motu.underground.protocol.PBFamilyGuardBossBox"
+      10: "familyGuardBossBoxs"
+    }
+  }
+  12: "proto3"
+}
